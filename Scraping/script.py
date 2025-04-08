@@ -63,7 +63,7 @@ def extract_css_properties(clases_css, css_text):
     
     return bg_pos, bg_url
 
-def obtain_image(url,position,width,height):
+'''def obtain_image(url,position,width,height):
     response=requests.get(url)
     if response.status_code == 200:
         with open("sprite_sheet.png", 'wb') as f:
@@ -77,7 +77,7 @@ def obtain_image(url,position,width,height):
 
     cropped = sprite_img.crop((position[0], position[1], position[0] + width, position[1] + height))
     terminado = f"sprites_recortados/{idx}_{nombre.replace(" "."_")}.png"
-    cropped.save(terminado)
+    cropped.save(terminado)'''
 
 
 urls = {
