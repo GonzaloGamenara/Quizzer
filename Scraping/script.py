@@ -5,13 +5,17 @@ from PIL import Image
 import os
 import re
 
+#FUNCTIONS/FUNCIONES
+#Function for BeautifulSoup Response / Funcion Respuesta de BeautifulSoup 
 def get_soup(url):
     response = requests.get(url)
     return BeautifulSoup(response.text,"html.parser") if response.status_code == 200 else "Error: " + str(response.status_code)
 
+#Function for Divide and Clean text / Funcion para dividir y limpiar texto
 def clean_text(elem, split_by=":", index=1, default="?"):
     return elem.text.strip().split(split_by)[index].strip() if elem else default
 
+#Function for Divide and Clean list / Funcion para dividir y limpiar listas STR
 def clean_list(i, keyword, split_by=":", default=[]):
     elem = i.find('p', string=lambda x: x and keyword in x)
     if elem:
@@ -20,6 +24,7 @@ def clean_list(i, keyword, split_by=":", default=[]):
             return [x.strip() for x in parts[1].split(",")]
     return default
 
+#Function for resume classes / Funcion para resumir clases
 def get_item_expansion(classes):
     if not classes:
         return "?"
@@ -30,6 +35,7 @@ def get_item_expansion(classes):
     if "rep" in cls: return "Repentance"
     return cls
 
+#Function for correct format text / Funcion para corregir formato de texto
 def sanitize_filename(name):
     reemplazos = {
         '?': '[q]',
@@ -48,12 +54,11 @@ def sanitize_filename(name):
     
     return name
 
-
+#Function for extract text from css archive / Funcion para extraer texto de un archivo css
 def extract_css_properties(clases_css, css_text):
     class_name2 = next((i for i in clases_css if re.search(r'\d', i)), None)
     class_name1 = next((i for i in reversed(clases_css) if i != 'item' and i != class_name2), None)
 
-    # Buscar bloque con background:url y height
     start_address = css_text.find(f".{class_name1}{{")
     if start_address == -1:
         return None, None, None, None
@@ -61,7 +66,6 @@ def extract_css_properties(clases_css, css_text):
     end_address = css_text.find("}", start_address)
     css_block_address = css_text[start_address:end_address]
 
-    # Buscar bloque con background-position y width
     start_position = css_text.find(f".{class_name2}{{")
     if start_position == -1:
         return None, None, None, None
@@ -69,7 +73,6 @@ def extract_css_properties(clases_css, css_text):
     end_position = css_text.find("}", start_position)
     css_block_position = css_text[start_position:end_position]
     
-    # Extraer background-position
     bg_pos = None
     if "background-position:" in css_block_position:
         bp_start = css_block_position.find("background-position:") + len("background-position:")
@@ -77,14 +80,12 @@ def extract_css_properties(clases_css, css_text):
         bg_pos = css_block_position[bp_start:bp_end].strip() if bp_end != -1 else css_block_position[bp_start:].strip()
         bg_pos = [int(valor.replace('px', '')) for valor in bg_pos.split()]
 
-    # Extraer background-url
     bg_url = None
     if "background:url(" in css_block_address:
         url_start = css_block_address.find("background:url(") + len("background:url(")
         url_end = css_block_address.find(")", url_start)
         bg_url = css_block_address[url_start:url_end].strip('"\'') if url_end != -1 else None
 
-    # Extraer width (de bloque de posición)
     width = None
     if "width:" in css_block_position:
         w_start = css_block_position.find("width:") + len("width:")
@@ -95,9 +96,8 @@ def extract_css_properties(clases_css, css_text):
         except ValueError:
             width = 50
     else:
-        width = 50  # Valor por defecto
+        width = 50 
 
-    # Extraer height (de bloque de url)
     height = None
     if "height:" in css_block_address:
         h_start = css_block_address.find("height:") + len("height:")
@@ -113,7 +113,7 @@ def extract_css_properties(clases_css, css_text):
     return bg_pos, bg_url, width, height
 
     
-
+#Function for download sprite_sheet, crop and save individual sprite / Funcion para descargar Sprite_sheet, cortar y guardar Sprite individual
 def download_crop_sprite(url, current_url, x, y, width, height, item_title, item_id):
     x = abs(x)
     y = abs(y)
@@ -158,7 +158,7 @@ def download_crop_sprite(url, current_url, x, y, width, height, item_title, item
     return (f"Sprite guardado en: {os.path.abspath(sprite_filename)}")
 
     
-
+#URLS/DIRECCIONES
 urls = {
     "items": "https://tboi.com/all-items",
     "transformations": "https://tboi.com/transformations",
@@ -171,8 +171,7 @@ soup_characters = get_soup(urls["characters"])
 
 isaac_quizz = []
 
-#Items
-
+#ITEMS/OBJETOS
 if soup_items:
     items = soup_items.find_all("li", class_="textbox")
 
@@ -213,8 +212,7 @@ if soup_items:
 else:
     print(f"Error al acceder a los items: {urls['items']}")
 
-#Trransformaciones
-
+#TRANSFORMATIONS/TRANSFORMACIONES
 if soup_transformations:
     transformations = soup_transformations.find_all("div", class_="trans-box")
     for t in transformations:
@@ -227,8 +225,7 @@ if soup_transformations:
 else:
     print(f"Error al acceder a las transformaciones: {urls['transformations']}")
 
-#Personajes
-
+#CHARACTERS/PERSONAJES
 if soup_characters:
     characters = soup_characters.find_all("a", {"data-tracking": "custom-level-3"})
     for c in characters:
@@ -240,5 +237,6 @@ if soup_characters:
 else:
     print(f"Error al acceder a los personajes: {urls['characters']}")
 
+#Save information in JSON / Guardar informacion en JSON
 with open("Quizzer/scraping/isaac_quizz/isaac_quizz.json", "w", encoding="utf-8") as archivo:
     json.dump(isaac_quizz, archivo, indent=4, ensure_ascii=False)
