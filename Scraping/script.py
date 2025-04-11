@@ -9,7 +9,6 @@ def get_soup(url):
     response = requests.get(url)
     return BeautifulSoup(response.text,"html.parser") if response.status_code == 200 else "Error: " + str(response.status_code)
 
-
 def clean_text(elem, split_by=":", index=1, default="?"):
     return elem.text.strip().split(split_by)[index].strip() if elem else default
 
@@ -52,7 +51,7 @@ def sanitize_filename(name):
 
 def extract_css_properties(clases_css, css_text):
     class_name2 = next((i for i in clases_css if re.search(r'\d', i)), None)
-    class_name1 = next((i for i in clases_css if i != 'item' and i != class_name2), None)
+    class_name1 = next((i for i in reversed(clases_css) if i != 'item' and i != class_name2), None)
 
     # Buscar bloque con background:url y height
     start_address = css_text.find(f".{class_name1}{{")
@@ -107,7 +106,9 @@ def extract_css_properties(clases_css, css_text):
         try:
             height = int(height_str.replace("px", ""))
         except ValueError:
-            height = None
+            height = 50
+    else:
+        height = 50
 
     return bg_pos, bg_url, width, height
 
@@ -119,8 +120,13 @@ def download_crop_sprite(url, current_url, x, y, width, height, item_title, item
 
     sprite_title = sanitize_filename(item_title)
     sprite_id = sanitize_filename(item_id)
+    
+    os.makedirs("Quizzer/scraping/isaac_quizz/sprites", exist_ok=True)
 
-    sprite_sheet_filename = "sprite_sheet_crudo.png"
+    if f"{sprite_id}_{sprite_title}_sprite.png" in os.listdir(r"C:\Users\Gonza\Desktop\Github\Quizzer\scraping\isaac_quizz\sprites"):
+        return (f"Sprite guardado en: {os.path.abspath(f"{sprite_id}_{sprite_title}.png")}")
+    else:
+        sprite_sheet_filename = "sprite_sheet_crudo.png"
 
     if current_url != url:
         if os.path.exists(sprite_sheet_filename):
@@ -131,11 +137,11 @@ def download_crop_sprite(url, current_url, x, y, width, height, item_title, item
             with open(sprite_sheet_filename, "wb") as f:
                 f.write(sprite_sheet_crudo.content)
             current_url = url
-            print("✅descargado")
+            print(f"Sprite {sprite_id} {sprite_title} guardado correctamente ✅")
         else:
             print("Error al descargar el sprite sheet:", sprite_sheet_crudo.status_code)
             return
-    
+
     try:
         sprite_sheet = Image.open(sprite_sheet_filename)
     except Exception as e:
@@ -146,11 +152,12 @@ def download_crop_sprite(url, current_url, x, y, width, height, item_title, item
     y2 = y + height
     sprite = sprite_sheet.crop((x, y, x2, y2))
 
-    os.makedirs("sprites", exist_ok=True)
 
-    sprite_filename = os.path.join("sprites", f"{sprite_id}_{sprite_title}_sprite.png")
+    sprite_filename = os.path.join("Quizzer/scraping/isaac_quizz/sprites", f"{sprite_id}_{sprite_title}.png")
     sprite.save(sprite_filename)
-    print(f"Sprite guardado en: {os.path.abspath(sprite_filename)}")
+    return (f"Sprite guardado en: {os.path.abspath(sprite_filename)}")
+
+    
 
 urls = {
     "items": "https://tboi.com/all-items",
@@ -176,17 +183,19 @@ if soup_items:
 
     current_url_sprites = ""
 
-
     for i in items:
 
         item_id = clean_text(i.find('p', class_='r-itemid'))
         item_title = clean_text(i.find('p', class_='item-title'), split_by=":", index=0)
 
         i_sprite_position,i_sprite_url, sprite_width, sprite_height = extract_css_properties(i.find('div', class_=True)['class'] if i.find('div', class_=True) else "?",css_text)
-        i_sprite_url = base_url + i_sprite_url
+        print(i_sprite_position)
+        if i_sprite_url == None:
+            continue
+        i_sprite_url = base_url + i_sprite_url[3:]
+        #print(f"url modificado= {i_sprite_url}")
 
-        print(i_sprite_url, current_url_sprites, i_sprite_position[0], i_sprite_position[1], sprite_width, sprite_height, item_title, item_id)
-        download_crop_sprite(i_sprite_url, current_url_sprites, i_sprite_position[0], i_sprite_position[1], sprite_width, sprite_height, item_title, item_id)
+        sprite_path = download_crop_sprite(i_sprite_url, current_url_sprites, i_sprite_position[0], i_sprite_position[1], sprite_width, sprite_height, item_title, item_id)
 
         
         item = {
@@ -198,7 +207,7 @@ if soup_items:
             "item_type": clean_list(i, "Type:"),
             "item_tags": [tag.strip() for tag in i.find('p', class_='tags').text.strip().split("*")[1].split(",")] if i.find('p', class_='tags') else [],
             "item_hint": clean_text(i.find('p', class_=False), split_by=":", index=0),
-            "item_image_path" : ""
+            "item_image_path" : sprite_path
         }
         isaac_quizz.append(item)
 else:
@@ -231,3 +240,5 @@ if soup_characters:
 else:
     print(f"Error al acceder a los personajes: {urls['characters']}")
 
+with open("Quizzer/scraping/isaac_quizz/isaac_quizz.json", "w", encoding="utf-8") as archivo:
+    json.dump(isaac_quizz, archivo, indent=4, ensure_ascii=False)
