@@ -188,11 +188,9 @@ if soup_items:
         item_title = clean_text(i.find('p', class_='item-title'), split_by=":", index=0)
 
         i_sprite_position,i_sprite_url, sprite_width, sprite_height = extract_css_properties(i.find('div', class_=True)['class'] if i.find('div', class_=True) else "?",css_text)
-        print(i_sprite_position)
         if i_sprite_url == None:
             continue
         i_sprite_url = base_url + i_sprite_url[3:]
-        #print(f"url modificado= {i_sprite_url}")
 
         sprite_path = download_crop_sprite(i_sprite_url, current_url_sprites, i_sprite_position[0], i_sprite_position[1], sprite_width, sprite_height, item_title, item_id)
 
