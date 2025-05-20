@@ -13,3 +13,6 @@ Base de datos: MongoDB (NoSQL)
 Web Scraping: Python + Beautiful Soup
 
 Los datos de los quizzes se obtienen a través de una API RESTful propia, alimentada por contenido recopilado mediante Web Scraping. Aunque actualmente el scraping está adaptado a sitios específicos, ¡el objetivo es integrar inteligencia artificial para automatizar el proceso en cualquier página web! 🤖
+
+## 📷 Vista previa
+https://miro.com/app/board/uXjVIGO6m-U=/?share_link_id=437479355159
