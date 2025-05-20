@@ -1,3 +1,15 @@
-Quizzer - Resuelve Quizzes en esta asombrosa pagina!
+🌟 Quizzer
+¡Resuelve quizzes en esta asombrosa página web!
 
-Se realizó una SPA con HTML, CSS, JS y React obteniendo la información de los quizzes desde una API RESTFUL propia creada con Node.js y Express, los datos fueron almacenados en una base de datos no relacional de MongoDB mediante Scraping Web con Python y la libreria Beautiful Soup, actualmente el codigo no es general para realizar un scraping automatico para cada pagina pero pronto deseo implementar IA para conseguir esto de manera mas sencilla!
+Quizzer es una Single Page Application (SPA) desarrollada con HTML, CSS, JavaScript y React, donde puedes disfrutar de una experiencia dinámica resolviendo quizzes de diferentes temáticas.
+
+🚀 ¿Qué tecnologías utiliza?
+Frontend: React + HTML5 + CSS3 + JavaScript
+
+Backend: Node.js + Express
+
+Base de datos: MongoDB (NoSQL)
+
+Web Scraping: Python + Beautiful Soup
+
+Los datos de los quizzes se obtienen a través de una API RESTful propia, alimentada por contenido recopilado mediante Web Scraping. Aunque actualmente el scraping está adaptado a sitios específicos, ¡el objetivo es integrar inteligencia artificial para automatizar el proceso en cualquier página web! 🤖
