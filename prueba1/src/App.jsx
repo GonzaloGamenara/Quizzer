@@ -2,28 +2,19 @@ import { useState } from "react";
 import "./App.css";
 import { ButtonPanel } from "./components/buttonPanel.jsx";
 import { OptionsScreen } from "./components/optionsScreen.jsx";
+import { PlayScreen } from "./components/playScreen.jsx";
 
 function App() {
-  const [showOptions, setShowOptions] = useState(false);
+  const [screen, setScreen] = useState("home"); //home, options, play
 
-  const handleButtonClick = () => {
-    setShowOptions(!showOptions);
-  };
+  const goTo = (newScreen) => setScreen(newScreen);
 
   return (
     <>
-      {!showOptions && (
-        <>
-          <h1 className="tittle">Quizzer</h1>
-          <ButtonPanel onButtonClick={handleButtonClick} b_name="Button Name" />
-        </>
-      )}
-      {showOptions && (
-        <OptionsScreen
-          onButtonClick={handleButtonClick}
-          quizz_name="Quizz Name"
-        />
-      )}
+      {screen == "home" && 
+      <ButtonPanel goTo={goTo} />}
+      {screen == "options" && <OptionsScreen goTo={goTo} />}
+      {screen == "play" && <PlayScreen goTo={goTo} />}
     </>
   );
 }

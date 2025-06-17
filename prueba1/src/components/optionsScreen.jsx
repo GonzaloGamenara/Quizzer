@@ -1,7 +1,7 @@
 import "../styles/optionsScreen.css";
 import { useState } from "react";
 
-export function OptionsScreen({ onButtonClick, quizz_name }) {
+export function OptionsScreen({ goTo, quizz_name }) {
   //esta funcion recibira la data completa del quizz
   const quantityConfig = Array(4).fill(null); //este array contendra la lista de config del quizz seleccionado
 
@@ -18,9 +18,11 @@ export function OptionsScreen({ onButtonClick, quizz_name }) {
             </button>
           );
         })}
-        <button className="quizz_start">Comenzar</button>
+        <button onClick={() => goTo("play")} className="quizz_start">
+          Comenzar
+        </button>
       </section>
-      <button onClick={onButtonClick} className="options-back-button">
+      <button onClick={() => goTo("home")} className="options-back-button">
         Volver
       </button>
     </div>
