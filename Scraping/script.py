@@ -2,6 +2,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from PIL import Image
+from pymongo import MongoClient
 import os
 import re
 
@@ -147,6 +148,10 @@ def download_img(url,item_title,item_id):
     os.makedirs("Quizzer/scraping/isaac_quizz/sprites", exist_ok=True)
     sprite_filename = os.path.join("Quizzer/scraping/isaac_quizz/sprites", f"{sprite_id}_{sprite_title}.png")
 
+    if f"{sprite_id}_{sprite_title}.png" in os.listdir(r"C:\Users\Gonza\Desktop\Github\Quizzer\scraping\isaac_quizz\sprites"):
+        print(f"Sprite guardado en: {os.path.abspath(f"{sprite_id}_{sprite_title}.png")}")
+        return
+
     img = requests.get(url)
     if img.status_code == 200:
         with open(sprite_filename, "wb") as f:
@@ -168,8 +173,9 @@ def download_crop_sprite(url, current_url, x, y, width, height, item_title, item
     x = abs(x) 
     y = abs(y)
 
-    if f"{sprite_id}_{sprite_title}_sprite.png" in os.listdir(r"C:\Users\Gonza\Desktop\Github\Quizzer\scraping\isaac_quizz\sprites"):
-        return (f"Sprite guardado en: {os.path.abspath(f"{sprite_id}_{sprite_title}.png")}")
+    if f"{sprite_id}_{sprite_title}.png" in os.listdir(r"C:\Users\Gonza\Desktop\Github\Quizzer\scraping\isaac_quizz\sprites"):
+        print(f"Sprite guardado en: {os.path.abspath(f"{sprite_id}_{sprite_title}.png")}")
+        return
     else:
         sprite_sheet_filename = "sprite_sheet_crudo.png"
 
@@ -316,3 +322,9 @@ else:
 #Save information in JSON / Guardar informacion en JSON
 with open("Quizzer/scraping/isaac_quizz/isaac_quizz.json", "w", encoding="utf-8") as archivo:
     json.dump(isaac_quizz, archivo, indent=4, ensure_ascii=False)
+
+cliente = MongoClient("mongodb://localhost:27017/")
+db = cliente["Quizzer"]
+coleccion = db["Isaac_Core"]
+coleccion.insert_many(isaac_quizz)
+print("¡Datos insertados correctamente!")

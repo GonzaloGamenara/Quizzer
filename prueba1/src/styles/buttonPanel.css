@@ -1,0 +1,23 @@
+.q-button {
+  max-width: 300px;
+  height: 150px;
+  border: none;
+  font-size: 2rem;
+}
+
+.q-button:hover {
+  color: rgba(255, 255, 255, 0);
+  background-image: url(https://images.steamusercontent.com/ugc/159155650902216177/F7BD1E80E073113600C9512F0E627914DF45B80E/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.q-button-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
