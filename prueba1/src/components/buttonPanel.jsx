@@ -1,10 +1,10 @@
 import "../styles/buttonPanel.css";
 
 export function ButtonPanel({ goTo, b_name }) {
-  const quantityButtons = Array(4).fill(null); //Este array debera contener la lista de quizzes para definir los botones a mostrar
+  const quantityButtons = Array(10).fill(null); //Este array debera contener la lista de quizzes para definir los botones a mostrar
 
   return (
-    <>
+    <div className="home_container">
       <h1 className="home_tittle">Quizzer</h1>
       <section className="q-button-panel">
         {quantityButtons.map((_, index) => {
@@ -19,6 +19,6 @@ export function ButtonPanel({ goTo, b_name }) {
           );
         })}
       </section>
-    </>
+    </div>
   );
 }

@@ -1,6 +1,6 @@
 import "../styles/playScreen.css";
 
-export function PlayScreen({ goTo, quizz }) {
+export function PlayScreen({ popUp, goTo, quizz }) {
   //quizz = nombre del quizz, elementos = cantidad ====> esto sera reemplazado por un Data que traera toda la info del quizz desde la DB
   const elementos = 20;
 
@@ -19,6 +19,7 @@ export function PlayScreen({ goTo, quizz }) {
         <p>
           #<span className="quizz_id_jugador">A8B92</span>
         </p>
+        <button className="quizz_hint_button">???</button>
       </header>
       <div className="quizz_main">
         {Array.from({ length: elementos }).map((_, index) => (
@@ -32,7 +33,9 @@ export function PlayScreen({ goTo, quizz }) {
         <button onClick={() => goTo("home")} className="quizz_menu">
           Menu Principal
         </button>
-        <button className="quizz_opciones">Opciones</button>
+        <button onClick={() => popUp(true)} className="quizz_opciones">
+          Opciones
+        </button>
       </footer>
     </div>
   );

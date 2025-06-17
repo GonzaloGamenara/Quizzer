@@ -1,0 +1,35 @@
+.quizz_config_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+section h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+
+section input {
+  height: 2rem;
+}
+
+.quizz_config_section {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.quizz_config_back {
+  font-size: 2rem;
+}

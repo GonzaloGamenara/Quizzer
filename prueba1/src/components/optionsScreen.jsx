@@ -1,5 +1,4 @@
 import "../styles/optionsScreen.css";
-import { useState } from "react";
 
 export function OptionsScreen({ goTo, quizz_name }) {
   //esta funcion recibira la data completa del quizz
@@ -12,12 +11,23 @@ export function OptionsScreen({ goTo, quizz_name }) {
         <button className="quizz_all_option">Quizz Completo</button>
         {quantityConfig.map((_, index) => {
           return (
-            <button className="quizz_option" key={index}>
+            <label className="quizz_option" key={index}>
+              <input type="checkbox" />
               <span className="text">Texto de prueba</span>
               <span className="icon">🧪</span>
-            </button>
+            </label>
           );
         })}
+        <div className="quizz_time_options">
+          <p>Tiempo: </p>
+          <button>∞</button>/
+          <select>
+            <option value="5">5 min</option>
+            <option value="10">10 min</option>
+            <option value="15">15 min</option>
+            <option value="20">20 min</option>
+          </select>
+        </div>
         <button onClick={() => goTo("play")} className="quizz_start">
           Comenzar
         </button>
