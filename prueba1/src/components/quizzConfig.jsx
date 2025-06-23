@@ -1,7 +1,9 @@
 import "../styles/quizzConfig.css";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-export function QuizzConfig({ popUp }) {
+export function QuizzConfig({ cerrarPopup }) {
+  const navigate = useNavigate();
   const [musicVolume, setMusicVolume] = useState(50);
   const [effectsVolume, setEffectsVolume] = useState(50);
 
@@ -26,7 +28,7 @@ export function QuizzConfig({ popUp }) {
           value={effectsVolume}
           onChange={(e) => setEffectsVolume(Number(e.target.value))}
         />
-        <button onClick={() => popUp(false)} className="quizz_config_back">
+        <button onClick={cerrarPopup} className="quizz_config_back">
           Volver
         </button>
       </section>

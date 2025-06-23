@@ -1,6 +1,8 @@
 import "../styles/optionsScreen.css";
+import { useNavigate } from "react-router-dom";
 
-export function OptionsScreen({ goTo, quizz_name }) {
+export function OptionsScreen({ quizz_name }) {
+  const navigate = useNavigate();
   //esta funcion recibira la data completa del quizz
   const quantityConfig = Array(4).fill(null); //este array contendra la lista de config del quizz seleccionado
 
@@ -28,11 +30,11 @@ export function OptionsScreen({ goTo, quizz_name }) {
             <option value="20">20 min</option>
           </select>
         </div>
-        <button onClick={() => goTo("play")} className="quizz_start">
+        <button onClick={() => navigate("/play")} className="quizz_start">
           Comenzar
         </button>
       </section>
-      <button onClick={() => goTo("home")} className="options-back-button">
+      <button onClick={() => navigate("/")} className="options-back-button">
         Volver
       </button>
     </div>

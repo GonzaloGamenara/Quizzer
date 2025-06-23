@@ -1,13 +1,3 @@
-.quizz_container {
-  height: 90vh;
-  background-color: black;
-  border-radius: 25px;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .quizz_header {
   display: flex;
   gap: 4rem;
@@ -24,37 +14,33 @@
   font-size: 2rem;
 }
 
-.quizz_input {
-  height: 4rem;
-  border-radius: 15px;
-  border: none;
-  padding: 1rem;
+.quizz_container {
+  height: 90vh;
+  background-color: black;
+  border-radius: 25px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
 }
-
+ 
 .quizz_main {
-  display: grid;
-  width: 90%;
-  height: 100%;
+  flex: 1 1 auto; /* ocupa TODO el espacio que quede */
+  display: grid; /* columnas / filas las mete inline style   */
+  overflow: hidden; /* nada sobresale, las celdas se encogen     */
+  width: 95%;
   margin: 0 auto;
-  gap: clamp(0.1rem, 0.2rem, 1rem);
-  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-  grid-auto-rows: repeat(auto-fit, minmax(40px, 1fr));
 }
 
-.quizz_unknown_button {
-  width: 100%;
-  height: 100%;
-  padding: clamp(0rem, 0.1vw, 0.1rem);
-  font-size: clamp(0.5rem, 1vw, 1.5rem);
+.quizz_unknown_div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #222;
-  color: white;
-  border: 1px solid #555;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: all 0.2s;
+  background-color: rgb(120, 120, 117);
+  font-weight: bold;
+  user-select: none;
+  color: black;
+  padding: 0;
+  margin: 0;
 }
 
 .quizz_footer button {

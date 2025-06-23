@@ -1,6 +1,8 @@
 import "../styles/buttonPanel.css";
+import { useNavigate } from "react-router-dom";
 
-export function ButtonPanel({ goTo, b_name }) {
+export function ButtonPanel({ b_name }) {
+  const navigate = useNavigate();
   const quantityButtons = Array(10).fill(null); //Este array debera contener la lista de quizzes para definir los botones a mostrar
 
   return (
@@ -10,9 +12,9 @@ export function ButtonPanel({ goTo, b_name }) {
         {quantityButtons.map((_, index) => {
           return (
             <button
-              onClick={() => goTo("options")}
               key={index}
               className="q-button"
+              onClick={() => navigate("/options")}
             >
               <span className="q-button-name">{b_name}</span>
             </button>
