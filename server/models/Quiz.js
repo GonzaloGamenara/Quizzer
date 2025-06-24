@@ -4,11 +4,17 @@ const quizSchema = new mongoose.Schema({
   name: { type: String, required: true },
   slug: { type: String, required: true, unique: true },
   category: { type: String, required: true },
-  backgrodundImage: { type: String, required: true },
+  background_image: { type: String, required: true },
   fonts: {
-    primary: { type: String, required: true },
-    secondary: { type: String, required: true },
-  }
+    primary: {
+      name: { type: String, required: true },
+      import: { type: String, required: true },
+    },
+    secondary: {
+      name: { type: String, required: true },
+      import: { type: String, required: true },
+    },
+  },
 });
 
 const Quiz = mongoose.model("Quiz", quizSchema);

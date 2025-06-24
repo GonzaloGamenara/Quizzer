@@ -1,0 +1,2217 @@
+{
+  "quiz": {
+    "name": "Clubes de Fútbol Argentinos",
+    "slug": "clubes-argentinos",
+    "category": "Deportes",
+    "background_image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1750722868/vecteezy_football-stadium-inside-at-night-with-lights-post-production_31689975_bcx1r6.webp",
+    "fonts": {
+      "primary": {
+        "name": "Futbol",
+        "import": "https://res.cloudinary.com/djibfrqyb/raw/upload/v1750722996/football_font_w85g3l.ttf"
+      },
+      "secondary": {
+        "name": "Roboto",
+        "import": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      }
+    }
+  },
+  "elements": [
+    {
+      "element_name": "River Plate",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/282.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "001"
+    },
+    {
+      "element_name": "Boca Juniors",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/270.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "002"
+    },
+    {
+      "element_name": "Racing Club",
+      "metadata": {
+        "hint": "Avellaneda",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/281.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Avellaneda"
+        }
+      },
+      "tags": ["primera división", "avellaneda"],
+      "element_id": "003"
+    },
+    {
+      "element_name": "Estudiantes de LP",
+      "metadata": {
+        "hint": "La Plata",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/272.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "La Plata"
+        }
+      },
+      "tags": ["primera división", "la plata"],
+      "element_id": "004"
+    },
+    {
+      "element_name": "Vélez Sársfield",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/285.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "005"
+    },
+    {
+      "element_name": "CA Talleres",
+      "metadata": {
+        "hint": "Córdoba",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1497.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Córdoba"
+        }
+      },
+      "tags": ["primera división", "córdoba"],
+      "element_id": "006"
+    },
+    {
+      "element_name": "Rosario Central",
+      "metadata": {
+        "hint": "Rosario",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/283.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Rosario"
+        }
+      },
+      "tags": ["primera división", "rosario"],
+      "element_id": "007"
+    },
+    {
+      "element_name": "Argentinos Juniors",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/267.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "008"
+    },
+    {
+      "element_name": "San Lorenzo",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/284.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "009"
+    },
+    {
+      "element_name": "Newell's Old Boys",
+      "metadata": {
+        "hint": "Rosario",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/278.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Rosario"
+        }
+      },
+      "tags": ["primera división", "rosario"],
+      "element_id": "010"
+    },
+    {
+      "element_name": "Lanús",
+      "metadata": {
+        "hint": "Lanús",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/277.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Lanús"
+        }
+      },
+      "tags": ["primera división", "lanús"],
+      "element_id": "011"
+    },
+    {
+      "element_name": "Belgrano",
+      "metadata": {
+        "hint": "Córdoba",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/720.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Córdoba"
+        }
+      },
+      "tags": ["primera división", "córdoba"],
+      "element_id": "012"
+    },
+    {
+      "element_name": "Independiente",
+      "metadata": {
+        "hint": "Avellaneda",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/275.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Avellaneda"
+        }
+      },
+      "tags": ["primera división", "avellaneda"],
+      "element_id": "013"
+    },
+    {
+      "element_name": "Defensa y Justicia",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1573.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "014"
+    },
+    {
+      "element_name": "CA Huracán",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/274.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "015"
+    },
+    {
+      "element_name": "Atlético Tucumán",
+      "metadata": {
+        "hint": "Tucumán",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1569.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Tucumán"
+        }
+      },
+      "tags": ["primera división", "tucumán"],
+      "element_id": "016"
+    },
+    {
+      "element_name": "Gimnasia La Plata",
+      "metadata": {
+        "hint": "La Plata",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/600.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "La Plata"
+        }
+      },
+      "tags": ["primera división", "la plata"],
+      "element_id": "017"
+    },
+    {
+      "element_name": "Banfield",
+      "metadata": {
+        "hint": "Banfield",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/269.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Banfield"
+        }
+      },
+      "tags": ["primera división", "banfield"],
+      "element_id": "018"
+    },
+    {
+      "element_name": "Godoy Cruz",
+      "metadata": {
+        "hint": "Mendoza",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/926.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Mendoza"
+        }
+      },
+      "tags": ["primera división", "mendoza"],
+      "element_id": "019"
+    },
+    {
+      "element_name": "CA Unión",
+      "metadata": {
+        "hint": "Santa Fe",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1496.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Santa Fe"
+        }
+      },
+      "tags": ["primera división", "santa fe"],
+      "element_id": "020"
+    },
+    {
+      "element_name": "Instituto ACC",
+      "metadata": {
+        "hint": "Córdoba",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/276.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Córdoba"
+        }
+      },
+      "tags": ["primera división", "córdoba"],
+      "element_id": "021"
+    },
+    {
+      "element_name": "CA Platense",
+      "metadata": {
+        "hint": "Florida",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2337.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Florida"
+        }
+      },
+      "tags": ["primera división", "florida"],
+      "element_id": "022"
+    },
+    {
+      "element_name": "Arsenal de Sarandí",
+      "metadata": {
+        "hint": "Avellaneda",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/268.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Avellaneda"
+        }
+      },
+      "tags": ["primera b nacional a", "avellaneda"],
+      "element_id": "023"
+    },
+    {
+      "element_name": "Gimnasia de Jujuy",
+      "metadata": {
+        "hint": "San Salvador de Jujuy",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/273.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "San Salvador de Jujuy"
+        }
+      },
+      "tags": ["primera b nacional b", "san salvador de jujuy"],
+      "element_id": "024"
+    },
+    {
+      "element_name": "CA Tigre",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1193.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "025"
+    },
+    {
+      "element_name": "Barracas Central",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2580.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "026"
+    },
+    {
+      "element_name": "Boca Unidos",
+      "metadata": {
+        "hint": "Corrientes",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1740.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Corrientes"
+        }
+      },
+      "tags": ["", "corrientes"],
+      "element_id": "027"
+    },
+    {
+      "element_name": "CA Colón",
+      "metadata": {
+        "hint": "Santa Fe",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/271.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Santa Fe"
+        }
+      },
+      "tags": ["primera b nacional b", "santa fe"],
+      "element_id": "028"
+    },
+    {
+      "element_name": "CA Sarmiento",
+      "metadata": {
+        "hint": "Junín",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2245.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Junín"
+        }
+      },
+      "tags": ["primera división", "junín"],
+      "element_id": "029"
+    },
+    {
+      "element_name": "Independiente Rivadavia",
+      "metadata": {
+        "hint": "Mendoza",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1494.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Mendoza"
+        }
+      },
+      "tags": ["primera división", "mendoza"],
+      "element_id": "030"
+    },
+    {
+      "element_name": "Quilmes AC",
+      "metadata": {
+        "hint": "Quilmes",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/280.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Quilmes"
+        }
+      },
+      "tags": ["primera b nacional a", "quilmes"],
+      "element_id": "031"
+    },
+    {
+      "element_name": "Almagro",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/266.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional b", "buenos aires"],
+      "element_id": "032"
+    },
+    {
+      "element_name": "Ferro Carril Oeste",
+      "metadata": {
+        "hint": "Caballito, Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1507.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Caballito, Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional b", "caballito, buenos aires"],
+      "element_id": "033"
+    },
+    {
+      "element_name": "Club Olimpo",
+      "metadata": {
+        "hint": "Bahía Blanca",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/279.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Bahía Blanca"
+        }
+      },
+      "tags": ["", "bahía blanca"],
+      "element_id": "034"
+    },
+    {
+      "element_name": "CA Aldosivi",
+      "metadata": {
+        "hint": "Mar del Plata",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1742.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Mar del Plata"
+        }
+      },
+      "tags": ["primera b nacional b", "mar del plata"],
+      "element_id": "035"
+    },
+    {
+      "element_name": "All Boys",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1617.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional b", "buenos aires"],
+      "element_id": "036"
+    },
+    {
+      "element_name": "Chacarita Juniors",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1358.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional a", "buenos aires"],
+      "element_id": "037"
+    },
+    {
+      "element_name": "Tristan Suárez",
+      "metadata": {
+        "hint": "Tristan Suárez",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2577.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Tristan Suárez"
+        }
+      },
+      "tags": ["primera b nacional b", "tristan suárez"],
+      "element_id": "038"
+    },
+    {
+      "element_name": "San Martín de San Juan",
+      "metadata": {
+        "hint": "San Juan",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1196.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "San Juan"
+        }
+      },
+      "tags": ["primera b nacional b", "san juan"],
+      "element_id": "039"
+    },
+    {
+      "element_name": "Los Andes",
+      "metadata": {
+        "hint": "Lomas de Zamora",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2325.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Lomas de Zamora"
+        }
+      },
+      "tags": ["primera b metropolitana", "lomas de zamora"],
+      "element_id": "040"
+    },
+    {
+      "element_name": "CA San Miguel",
+      "metadata": {
+        "hint": "San Miguel",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3715.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "San Miguel"
+        }
+      },
+      "tags": ["primera b nacional a", "san miguel"],
+      "element_id": "041"
+    },
+    {
+      "element_name": "Deportivo Riestra",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4267.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera división", "buenos aires"],
+      "element_id": "042"
+    },
+    {
+      "element_name": "CA Temperley",
+      "metadata": {
+        "hint": "Lomas de Zamora",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2362.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Lomas de Zamora"
+        }
+      },
+      "tags": ["primera b nacional a", "lomas de zamora"],
+      "element_id": "043"
+    },
+    {
+      "element_name": "Atlético Rafaela",
+      "metadata": {
+        "hint": "Rafaela",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1689.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Rafaela"
+        }
+      },
+      "tags": ["primera b nacional b", "rafaela"],
+      "element_id": "044"
+    },
+    {
+      "element_name": "Guaraní Antonio Franco",
+      "metadata": {
+        "hint": "Posadas",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3158.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Posadas"
+        }
+      },
+      "tags": ["", "posadas"],
+      "element_id": "045"
+    },
+    {
+      "element_name": "San Martín de Tucumán",
+      "metadata": {
+        "hint": "Tucumán",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1318.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Tucumán"
+        }
+      },
+      "tags": ["primera b nacional a", "tucumán"],
+      "element_id": "046"
+    },
+    {
+      "element_name": "Club Agropecuario",
+      "metadata": {
+        "hint": "Carlos Casares",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3691.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Carlos Casares"
+        }
+      },
+      "tags": ["primera b nacional a", "carlos casares"],
+      "element_id": "047"
+    },
+    {
+      "element_name": "CA Mitre SdE",
+      "metadata": {
+        "hint": "Santiago del Estero",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3391.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Santiago del Estero"
+        }
+      },
+      "tags": ["primera b nacional a", "santiago del estero"],
+      "element_id": "048"
+    },
+    {
+      "element_name": "Gimnasia y Tiro",
+      "metadata": {
+        "hint": "Salta",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3378.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Salta"
+        }
+      },
+      "tags": ["primera b nacional b", "salta"],
+      "element_id": "049"
+    },
+    {
+      "element_name": "CA Atlanta",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2333.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional a", "buenos aires"],
+      "element_id": "050"
+    },
+    {
+      "element_name": "CA Atlanta",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2333.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional a", "buenos aires"],
+      "element_id": "051"
+    },
+    {
+      "element_name": "Central Córdoba de Rosario",
+      "metadata": {
+        "hint": "Rosario",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2334.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Rosario"
+        }
+      },
+      "tags": ["", "rosario"],
+      "element_id": "052"
+    },
+    {
+      "element_name": "Estudiantes de Río Cuarto",
+      "metadata": {
+        "hint": "Río Cuarto",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3164.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Río Cuarto"
+        }
+      },
+      "tags": ["primera b nacional a", "río cuarto"],
+      "element_id": "053"
+    },
+    {
+      "element_name": "Almirante Brown",
+      "metadata": {
+        "hint": "Isidro Casanova",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1741.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Isidro Casanova"
+        }
+      },
+      "tags": ["primera b nacional a", "isidro casanova"],
+      "element_id": "054"
+    },
+    {
+      "element_name": "Sportivo Belgrano",
+      "metadata": {
+        "hint": "San Francisco",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2689.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Francisco"
+        }
+      },
+      "tags": ["", "san francisco"],
+      "element_id": "055"
+    },
+    {
+      "element_name": "Nueva Chicago",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/927.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional a", "buenos aires"],
+      "element_id": "056"
+    },
+    {
+      "element_name": "Deportivo Merlo",
+      "metadata": {
+        "hint": "Merlo",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1743.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Merlo"
+        }
+      },
+      "tags": ["primera b metropolitana", "merlo"],
+      "element_id": "057"
+    },
+    {
+      "element_name": "CA Colegiales",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2579.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b metropolitana", "buenos aires"],
+      "element_id": "058"
+    },
+    {
+      "element_name": "Deportivo Maipú",
+      "metadata": {
+        "hint": "Maipú",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3464.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Maipú"
+        }
+      },
+      "tags": ["primera b nacional a", "maipú"],
+      "element_id": "059"
+    },
+    {
+      "element_name": "Defensores de Belgrano",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2311.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional b", "buenos aires"],
+      "element_id": "060"
+    },
+    {
+      "element_name": "CA Alvarado",
+      "metadata": {
+        "hint": "Mar del Plata",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4524.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Mar del Plata"
+        }
+      },
+      "tags": ["primera b nacional a", "mar del plata"],
+      "element_id": "061"
+    },
+    {
+      "element_name": "CA Estudiantes BA",
+      "metadata": {
+        "hint": "Caseros, Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2348.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Caseros, Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional a", "caseros, buenos aires"],
+      "element_id": "062"
+    },
+    {
+      "element_name": "CSYD Santamarina",
+      "metadata": {
+        "hint": "Tandil",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3250.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Tandil"
+        }
+      },
+      "tags": ["primera b nacional b", "tandil"],
+      "element_id": "063"
+    },
+    {
+      "element_name": "Atlético Camioneros",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3693.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["", "buenos aires"],
+      "element_id": "064"
+    },
+    {
+      "element_name": "Racing de Córdoba",
+      "metadata": {
+        "hint": "Córdoba",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5280.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Córdoba"
+        }
+      },
+      "tags": ["", "córdoba"],
+      "element_id": "065"
+    },
+    {
+      "element_name": "Deportivo Morón",
+      "metadata": {
+        "hint": "Morón",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2354.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Morón"
+        }
+      },
+      "tags": ["primera b nacional b", "morón"],
+      "element_id": "066"
+    },
+    {
+      "element_name": "Gimnasia de Mendoza",
+      "metadata": {
+        "hint": "Mendoza",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3588.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Mendoza"
+        }
+      },
+      "tags": ["primera b nacional a", "mendoza"],
+      "element_id": "067"
+    },
+    {
+      "element_name": "Douglas Haig",
+      "metadata": {
+        "hint": "Pergamino",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2164.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Pergamino"
+        }
+      },
+      "tags": ["", "pergamino"],
+      "element_id": "068"
+    },
+    {
+      "element_name": "Central Córdoba SdE",
+      "metadata": {
+        "hint": "Santiago del Estero",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4518.png",
+        "extra": {
+          "division": "Primera División",
+          "ciudad": "Santiago del Estero"
+        }
+      },
+      "tags": ["primera división", "santiago del estero"],
+      "element_id": "069"
+    },
+    {
+      "element_name": "CA San Telmo",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2578.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional b", "buenos aires"],
+      "element_id": "070"
+    },
+    {
+      "element_name": "Juventud Antoniana",
+      "metadata": {
+        "hint": "Salta",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3177.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Salta"
+        }
+      },
+      "tags": ["", "salta"],
+      "element_id": "071"
+    },
+    {
+      "element_name": "Club Fénix",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2706.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b metropolitana", "buenos aires"],
+      "element_id": "072"
+    },
+    {
+      "element_name": "Villa San Carlos",
+      "metadata": {
+        "hint": "Berisso",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2568.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Berisso"
+        }
+      },
+      "tags": ["primera b metropolitana", "berisso"],
+      "element_id": "073"
+    },
+    {
+      "element_name": "Deportivo Madryn",
+      "metadata": {
+        "hint": "Puerto Madryn",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3450.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Puerto Madryn"
+        }
+      },
+      "tags": ["primera b nacional a", "puerto madryn"],
+      "element_id": "074"
+    },
+    {
+      "element_name": "CA Excursionistas",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4445.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["", "buenos aires"],
+      "element_id": "075"
+    },
+    {
+      "element_name": "C.A.I.",
+      "metadata": {
+        "hint": "Comodoro Rivadavia",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1744.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Comodoro Rivadavia"
+        }
+      },
+      "tags": ["", "comodoro rivadavia"],
+      "element_id": "076"
+    },
+    {
+      "element_name": "Villa Dálmine",
+      "metadata": {
+        "hint": "Campana",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2542.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Campana"
+        }
+      },
+      "tags": ["primera b nacional b", "campana"],
+      "element_id": "077"
+    },
+    {
+      "element_name": "Chaco For Ever",
+      "metadata": {
+        "hint": "Resistencia",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3463.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Resistencia"
+        }
+      },
+      "tags": ["", "resistencia"],
+      "element_id": "078"
+    },
+    {
+      "element_name": "CS Dock Sud",
+      "metadata": {
+        "hint": "Dock Sud",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3688.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Dock Sud"
+        }
+      },
+      "tags": ["", "dock sud"],
+      "element_id": "079"
+    },
+    {
+      "element_name": "Sportivo Las Parejas",
+      "metadata": {
+        "hint": "Las Parejas",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3681.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Las Parejas"
+        }
+      },
+      "tags": ["", "las parejas"],
+      "element_id": "080"
+    },
+    {
+      "element_name": "Deportivo Laferrere",
+      "metadata": {
+        "hint": "La Matanza Partido",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2986.png",
+        "extra": {
+          "division": "",
+          "ciudad": "La Matanza Partido"
+        }
+      },
+      "tags": ["", "la matanza partido"],
+      "element_id": "081"
+    },
+    {
+      "element_name": "Talleres de RE",
+      "metadata": {
+        "hint": "Remedios de Escalada",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4318.png",
+        "extra": {
+          "division": "Primera B Nacional A",
+          "ciudad": "Remedios de Escalada"
+        }
+      },
+      "tags": ["primera b nacional a", "remedios de escalada"],
+      "element_id": "082"
+    },
+    {
+      "element_name": "San Martín de Mendoza",
+      "metadata": {
+        "hint": "San Martín",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3614.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Martín"
+        }
+      },
+      "tags": ["", "san martín"],
+      "element_id": "083"
+    },
+    {
+      "element_name": "Círculo Deportivo",
+      "metadata": {
+        "hint": "Comandante Nicanor Otamendi",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5524.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Comandante Nicanor Otamendi"
+        }
+      },
+      "tags": ["", "comandante nicanor otamendi"],
+      "element_id": "084"
+    },
+    {
+      "element_name": "Brown de Adrogué",
+      "metadata": {
+        "hint": "Adrogué, Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2382.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Adrogué, Buenos Aires"
+        }
+      },
+      "tags": ["primera b nacional b", "adrogué, buenos aires"],
+      "element_id": "085"
+    },
+    {
+      "element_name": "CA Güemes",
+      "metadata": {
+        "hint": "Santiago del Estero",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4345.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Santiago del Estero"
+        }
+      },
+      "tags": ["primera b nacional b", "santiago del estero"],
+      "element_id": "086"
+    },
+    {
+      "element_name": "Sportivo Italiano",
+      "metadata": {
+        "hint": "Ciudad Evita",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3383.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Ciudad Evita"
+        }
+      },
+      "tags": ["", "ciudad evita"],
+      "element_id": "087"
+    },
+    {
+      "element_name": "Argentino de Quilmes",
+      "metadata": {
+        "hint": "Quilmes",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4523.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Quilmes"
+        }
+      },
+      "tags": ["primera b metropolitana", "quilmes"],
+      "element_id": "088"
+    },
+    {
+      "element_name": "Ciudad de Bolívar",
+      "metadata": {
+        "hint": "Bolívar",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5832.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Bolívar"
+        }
+      },
+      "tags": ["", "bolívar"],
+      "element_id": "089"
+    },
+    {
+      "element_name": "Defensores Unidos",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5405.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b metropolitana", "buenos aires"],
+      "element_id": "090"
+    },
+    {
+      "element_name": "Deportivo Armenio",
+      "metadata": {
+        "hint": "Ingeniero Maschwitz",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2576.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Ingeniero Maschwitz"
+        }
+      },
+      "tags": ["primera b metropolitana", "ingeniero maschwitz"],
+      "element_id": "091"
+    },
+    {
+      "element_name": "Club Comunicaciones",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2381.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b metropolitana", "buenos aires"],
+      "element_id": "092"
+    },
+    {
+      "element_name": "Guillermo Brown",
+      "metadata": {
+        "hint": "Puerto Madryn",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1809.png",
+        "extra": {
+          "division": "Primera B Nacional B",
+          "ciudad": "Puerto Madryn"
+        }
+      },
+      "tags": ["primera b nacional b", "puerto madryn"],
+      "element_id": "093"
+    },
+    {
+      "element_name": "CSYD Flandria",
+      "metadata": {
+        "hint": "Jáuregui",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2575.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Jáuregui"
+        }
+      },
+      "tags": ["primera b metropolitana", "jáuregui"],
+      "element_id": "094"
+    },
+    {
+      "element_name": "Crucero del Norte",
+      "metadata": {
+        "hint": "Garupá",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2244.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Garupá"
+        }
+      },
+      "tags": ["", "garupá"],
+      "element_id": "095"
+    },
+    {
+      "element_name": "CS Estudiantes",
+      "metadata": {
+        "hint": "San Luis",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3267.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Luis"
+        }
+      },
+      "tags": ["", "san luis"],
+      "element_id": "096"
+    },
+    {
+      "element_name": "Sportivo Desamparados",
+      "metadata": {
+        "hint": "San Juan",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/1979.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Juan"
+        }
+      },
+      "tags": ["", "san juan"],
+      "element_id": "097"
+    },
+    {
+      "element_name": "UAI Urquiza",
+      "metadata": {
+        "hint": "San Martín Partido",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2707.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "San Martín Partido"
+        }
+      },
+      "tags": ["primera b metropolitana", "san martín partido"],
+      "element_id": "098"
+    },
+    {
+      "element_name": "Ferrocarril Midland",
+      "metadata": {
+        "hint": "Merlo Partido",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4754.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Merlo Partido"
+        }
+      },
+      "tags": ["", "merlo partido"],
+      "element_id": "099"
+    },
+    {
+      "element_name": "Tiro Federal",
+      "metadata": {
+        "hint": "Rosario",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/519.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Rosario"
+        }
+      },
+      "tags": ["", "rosario"],
+      "element_id": "100"
+    },
+    {
+      "element_name": "Deportivo Español",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3389.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["", "buenos aires"],
+      "element_id": "101"
+    },
+    {
+      "element_name": "Central Norte",
+      "metadata": {
+        "hint": "Salta",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3159.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Salta"
+        }
+      },
+      "tags": ["", "salta"],
+      "element_id": "102"
+    },
+    {
+      "element_name": "Ferro de General Pico",
+      "metadata": {
+        "hint": "General Pico",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3455.png",
+        "extra": {
+          "division": "",
+          "ciudad": "General Pico"
+        }
+      },
+      "tags": ["", "general pico"],
+      "element_id": "103"
+    },
+    {
+      "element_name": "Atlético Paraná",
+      "metadata": {
+        "hint": "Paraná",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3458.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Paraná"
+        }
+      },
+      "tags": ["", "paraná"],
+      "element_id": "104"
+    },
+    {
+      "element_name": "CA Acassuso",
+      "metadata": {
+        "hint": "San Isidro",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/2581.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "San Isidro"
+        }
+      },
+      "tags": ["primera b metropolitana", "san isidro"],
+      "element_id": "105"
+    },
+    {
+      "element_name": "Juventud Unida Universitario",
+      "metadata": {
+        "hint": "San Luis",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3677.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Luis"
+        }
+      },
+      "tags": ["", "san luis"],
+      "element_id": "106"
+    },
+    {
+      "element_name": "CS Ben Hur",
+      "metadata": {
+        "hint": "Rafaela",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3457.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Rafaela"
+        }
+      },
+      "tags": ["", "rafaela"],
+      "element_id": "107"
+    },
+    {
+      "element_name": "Gutiérrez Sport Club",
+      "metadata": {
+        "hint": "Maipú",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3951.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Maipú"
+        }
+      },
+      "tags": ["", "maipú"],
+      "element_id": "108"
+    },
+    {
+      "element_name": "Defensores de Cambaceres",
+      "metadata": {
+        "hint": "Ensenada",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3796.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Ensenada"
+        }
+      },
+      "tags": ["", "ensenada"],
+      "element_id": "109"
+    },
+    {
+      "element_name": "Sarmiento de Resistencia",
+      "metadata": {
+        "hint": "Resistencia",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5024.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Resistencia"
+        }
+      },
+      "tags": ["", "resistencia"],
+      "element_id": "110"
+    },
+    {
+      "element_name": "CA Sansinena SyD",
+      "metadata": {
+        "hint": "General Daniel Cerri",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5070.png",
+        "extra": {
+          "division": "",
+          "ciudad": "General Daniel Cerri"
+        }
+      },
+      "tags": ["", "general daniel cerri"],
+      "element_id": "111"
+    },
+    {
+      "element_name": "AD Berazategui",
+      "metadata": {
+        "hint": "Berazategui",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4994.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Berazategui"
+        }
+      },
+      "tags": ["", "berazategui"],
+      "element_id": "112"
+    },
+    {
+      "element_name": "Club Cipolletti",
+      "metadata": {
+        "hint": "Cipolletti",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3686.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Cipolletti"
+        }
+      },
+      "tags": ["", "cipolletti"],
+      "element_id": "113"
+    },
+    {
+      "element_name": "Sacachispas FC",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4906.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b metropolitana", "buenos aires"],
+      "element_id": "114"
+    },
+    {
+      "element_name": "Huracán Las Heras",
+      "metadata": {
+        "hint": "Las Heras",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5525.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Las Heras"
+        }
+      },
+      "tags": ["", "las heras"],
+      "element_id": "115"
+    },
+    {
+      "element_name": "Gimnasia de Concepción",
+      "metadata": {
+        "hint": "Concepción del Uruguay",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3454.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Concepción del Uruguay"
+        }
+      },
+      "tags": ["", "concepción del uruguay"],
+      "element_id": "116"
+    },
+    {
+      "element_name": "JJ de Urquiza",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5336.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["primera b metropolitana", "buenos aires"],
+      "element_id": "117"
+    },
+    {
+      "element_name": "Juventud Unida de Gualeguaychú",
+      "metadata": {
+        "hint": "Gualeguaychú",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3587.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Gualeguaychú"
+        }
+      },
+      "tags": ["", "gualeguaychú"],
+      "element_id": "118"
+    },
+    {
+      "element_name": "Real Pilar",
+      "metadata": {
+        "hint": "Pilar",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5766.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Pilar"
+        }
+      },
+      "tags": ["", "pilar"],
+      "element_id": "119"
+    },
+    {
+      "element_name": "Concepción FC",
+      "metadata": {
+        "hint": "Concepción",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4317.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Concepción"
+        }
+      },
+      "tags": ["", "concepción"],
+      "element_id": "120"
+    },
+    {
+      "element_name": "Independiente de Chivilcoy",
+      "metadata": {
+        "hint": "Chivilcoy",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3462.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Chivilcoy"
+        }
+      },
+      "tags": ["", "chivilcoy"],
+      "element_id": "121"
+    },
+    {
+      "element_name": "Unión de Sunchales",
+      "metadata": {
+        "hint": "Sunchales",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4316.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Sunchales"
+        }
+      },
+      "tags": ["", "sunchales"],
+      "element_id": "122"
+    },
+    {
+      "element_name": "Club Rivadavia",
+      "metadata": {
+        "hint": "Lincoln",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3033.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Lincoln"
+        }
+      },
+      "tags": ["", "lincoln"],
+      "element_id": "123"
+    },
+    {
+      "element_name": "Sol de Mayo",
+      "metadata": {
+        "hint": "Viedma",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4358.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Viedma"
+        }
+      },
+      "tags": ["", "viedma"],
+      "element_id": "124"
+    },
+    {
+      "element_name": "Club El Porvenir",
+      "metadata": {
+        "hint": "Gerli",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4923.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Gerli"
+        }
+      },
+      "tags": ["", "gerli"],
+      "element_id": "125"
+    },
+    {
+      "element_name": "Villa Mitre",
+      "metadata": {
+        "hint": "Bahía Blanca",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5714.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Bahía Blanca"
+        }
+      },
+      "tags": ["primera b metropolitana", "bahía blanca"],
+      "element_id": "126"
+    },
+    {
+      "element_name": "Cañuelas FC",
+      "metadata": {
+        "hint": "Cañuelas",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4019.png",
+        "extra": {
+          "division": "Primera B Metropolitana",
+          "ciudad": "Cañuelas"
+        }
+      },
+      "tags": ["primera b metropolitana", "cañuelas"],
+      "element_id": "127"
+    },
+    {
+      "element_name": "Atlético Uruguay",
+      "metadata": {
+        "hint": "Concepción del Uruguay",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4371.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Concepción del Uruguay"
+        }
+      },
+      "tags": ["", "concepción del uruguay"],
+      "element_id": "128"
+    },
+    {
+      "element_name": "Defensores de Villa Ramallo",
+      "metadata": {
+        "hint": "Ramallo Partido",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5283.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Ramallo Partido"
+        }
+      },
+      "tags": ["", "ramallo partido"],
+      "element_id": "129"
+    },
+    {
+      "element_name": "Argentino de Merlo",
+      "metadata": {
+        "hint": "Merlo",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5767.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Merlo"
+        }
+      },
+      "tags": ["", "merlo"],
+      "element_id": "130"
+    },
+    {
+      "element_name": "Sarmiento de Leones",
+      "metadata": {
+        "hint": "Leones",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3327.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Leones"
+        }
+      },
+      "tags": ["", "leones"],
+      "element_id": "131"
+    },
+    {
+      "element_name": "General Lamadrid",
+      "metadata": {
+        "hint": "Villa Devoto",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5592.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Villa Devoto"
+        }
+      },
+      "tags": ["", "villa devoto"],
+      "element_id": "132"
+    },
+    {
+      "element_name": "Club Sol de América",
+      "metadata": {
+        "hint": "Formosa",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3460.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Formosa"
+        }
+      },
+      "tags": ["", "formosa"],
+      "element_id": "133"
+    },
+    {
+      "element_name": "San Lorenzo de Alem",
+      "metadata": {
+        "hint": "Catamarca",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3465.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Catamarca"
+        }
+      },
+      "tags": ["", "catamarca"],
+      "element_id": "134"
+    },
+    {
+      "element_name": "Racing de Olavarría",
+      "metadata": {
+        "hint": "Olavarría",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3459.jpg",
+        "extra": {
+          "division": "",
+          "ciudad": "Olavarría"
+        }
+      },
+      "tags": ["", "olavarría"],
+      "element_id": "135"
+    },
+    {
+      "element_name": "CD Libertad",
+      "metadata": {
+        "hint": "Sunchales",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3974.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Sunchales"
+        }
+      },
+      "tags": ["", "sunchales"],
+      "element_id": "136"
+    },
+    {
+      "element_name": "Huracán de Comodoro",
+      "metadata": {
+        "hint": "Comodoro Rivadavia",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3952.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Comodoro Rivadavia"
+        }
+      },
+      "tags": ["", "comodoro rivadavia"],
+      "element_id": "137"
+    },
+    {
+      "element_name": "Unión Villa Krause",
+      "metadata": {
+        "hint": "Villa Krause",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3613.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Villa Krause"
+        }
+      },
+      "tags": ["", "villa krause"],
+      "element_id": "138"
+    },
+    {
+      "element_name": "San Martín de Formosa",
+      "metadata": {
+        "hint": "Ciudad de Formosa",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5285.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Ciudad de Formosa"
+        }
+      },
+      "tags": ["", "ciudad de formosa"],
+      "element_id": "139"
+    },
+    {
+      "element_name": "Belgrano de Paraná",
+      "metadata": {
+        "hint": "Paraná",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4338.jpg",
+        "extra": {
+          "division": "",
+          "ciudad": "Paraná"
+        }
+      },
+      "tags": ["", "paraná"],
+      "element_id": "140"
+    },
+    {
+      "element_name": "Sportivo Patria",
+      "metadata": {
+        "hint": "Formosa",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3451.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Formosa"
+        }
+      },
+      "tags": ["", "formosa"],
+      "element_id": "141"
+    },
+    {
+      "element_name": "Andino SC",
+      "metadata": {
+        "hint": "La Rioja",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3690.png",
+        "extra": {
+          "division": "",
+          "ciudad": "La Rioja"
+        }
+      },
+      "tags": ["", "la rioja"],
+      "element_id": "142"
+    },
+    {
+      "element_name": "Sportivo Barracas",
+      "metadata": {
+        "hint": "Buenos Aires",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5072.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Buenos Aires"
+        }
+      },
+      "tags": ["", "buenos aires"],
+      "element_id": "143"
+    },
+    {
+      "element_name": "San Martín de Burzaco",
+      "metadata": {
+        "hint": "Burzaco",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5765.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Burzaco"
+        }
+      },
+      "tags": ["", "burzaco"],
+      "element_id": "144"
+    },
+    {
+      "element_name": "Tiro Federal BB",
+      "metadata": {
+        "hint": "Bahía Blanca",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3692.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Bahía Blanca"
+        }
+      },
+      "tags": ["", "bahía blanca"],
+      "element_id": "145"
+    },
+    {
+      "element_name": "Juventud Unida",
+      "metadata": {
+        "hint": "San Miguel",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3449.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Miguel"
+        }
+      },
+      "tags": ["", "san miguel"],
+      "element_id": "146"
+    },
+    {
+      "element_name": "San Jorge de Tucumán",
+      "metadata": {
+        "hint": "San Miguel de Tucumán",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3461.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Miguel de Tucumán"
+        }
+      },
+      "tags": ["", "san miguel de tucumán"],
+      "element_id": "147"
+    },
+    {
+      "element_name": "Jorge Newbery",
+      "metadata": {
+        "hint": "Villa Mercedes",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3656.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Villa Mercedes"
+        }
+      },
+      "tags": ["", "villa mercedes"],
+      "element_id": "148"
+    },
+    {
+      "element_name": "Defensores de Pronunciamiento",
+      "metadata": {
+        "hint": "Pronunciamiento",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4512.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Pronunciamiento"
+        }
+      },
+      "tags": ["", "pronunciamiento"],
+      "element_id": "149"
+    },
+    {
+      "element_name": "CA Las Palmas",
+      "metadata": {
+        "hint": "Córdoba",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5084.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Córdoba"
+        }
+      },
+      "tags": ["", "córdoba"],
+      "element_id": "150"
+    },
+    {
+      "element_name": "Altos Hornos Zapla",
+      "metadata": {
+        "hint": "Estadio Emilio Fabrizzi",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3658.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Estadio Emilio Fabrizzi"
+        }
+      },
+      "tags": ["", "estadio emilio fabrizzi"],
+      "element_id": "151"
+    },
+    {
+      "element_name": "CA Ituzaingó",
+      "metadata": {
+        "hint": "Ituzaingó",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5763.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Ituzaingó"
+        }
+      },
+      "tags": ["", "ituzaingó"],
+      "element_id": "152"
+    },
+    {
+      "element_name": "9 de Julio de Rafaela",
+      "metadata": {
+        "hint": "Rafaela",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3698.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Rafaela"
+        }
+      },
+      "tags": ["", "rafaela"],
+      "element_id": "153"
+    },
+    {
+      "element_name": "Unión Aconquija",
+      "metadata": {
+        "hint": "Aconquija",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3466.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Aconquija"
+        }
+      },
+      "tags": ["", "aconquija"],
+      "element_id": "154"
+    },
+    {
+      "element_name": "Sportivo Peñarol",
+      "metadata": {
+        "hint": "Chimbas",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5762.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Chimbas"
+        }
+      },
+      "tags": ["", "chimbas"],
+      "element_id": "155"
+    },
+    {
+      "element_name": "Cruz del Sur",
+      "metadata": {
+        "hint": "Bariloche",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3467.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Bariloche"
+        }
+      },
+      "tags": ["", "bariloche"],
+      "element_id": "156"
+    },
+    {
+      "element_name": "CD Mandiyú",
+      "metadata": {
+        "hint": "Corrientes",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3456.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Corrientes"
+        }
+      },
+      "tags": ["", "corrientes"],
+      "element_id": "157"
+    },
+    {
+      "element_name": "Club Luján",
+      "metadata": {
+        "hint": "Luján",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5764.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Luján"
+        }
+      },
+      "tags": ["", "luján"],
+      "element_id": "158"
+    },
+    {
+      "element_name": "Atlético San Jorge",
+      "metadata": {
+        "hint": "San Jorge",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3697.jpg",
+        "extra": {
+          "division": "",
+          "ciudad": "San Jorge"
+        }
+      },
+      "tags": ["", "san jorge"],
+      "element_id": "159"
+    },
+    {
+      "element_name": "Unión de Mar del Plata",
+      "metadata": {
+        "hint": "Mar de Plata",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3453.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Mar de Plata"
+        }
+      },
+      "tags": ["", "mar de plata"],
+      "element_id": "160"
+    },
+    {
+      "element_name": "Independiente de Neuquén",
+      "metadata": {
+        "hint": "Neuquén",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5063.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Neuquén"
+        }
+      },
+      "tags": ["", "neuquén"],
+      "element_id": "161"
+    },
+    {
+      "element_name": "Juventud Alianza",
+      "metadata": {
+        "hint": "Santa Lucía",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3390.jpg",
+        "extra": {
+          "division": "",
+          "ciudad": "Santa Lucía"
+        }
+      },
+      "tags": ["", "santa lucía"],
+      "element_id": "162"
+    },
+    {
+      "element_name": "CA Germinal",
+      "metadata": {
+        "hint": "Rawson",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4989.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Rawson"
+        }
+      },
+      "tags": ["", "rawson"],
+      "element_id": "163"
+    },
+    {
+      "element_name": "Club General Belgrano",
+      "metadata": {
+        "hint": "Santa Rosa",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3695.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Santa Rosa"
+        }
+      },
+      "tags": ["", "santa rosa"],
+      "element_id": "164"
+    },
+    {
+      "element_name": "Argentino de Rosario",
+      "metadata": {
+        "hint": "Rosario",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3689.jpg",
+        "extra": {
+          "division": "",
+          "ciudad": "Rosario"
+        }
+      },
+      "tags": ["", "rosario"],
+      "element_id": "165"
+    },
+    {
+      "element_name": "CD Rosamonte",
+      "metadata": {
+        "hint": "Apóstoles",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3694.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Apóstoles"
+        }
+      },
+      "tags": ["", "apóstoles"],
+      "element_id": "166"
+    },
+    {
+      "element_name": "CA Pacífico",
+      "metadata": {
+        "hint": "Bahía Blanca",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/3975.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Bahía Blanca"
+        }
+      },
+      "tags": ["", "bahía blanca"],
+      "element_id": "167"
+    },
+    {
+      "element_name": "CSD La Emilia",
+      "metadata": {
+        "hint": "San Nicolás",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/5083.png",
+        "extra": {
+          "division": "",
+          "ciudad": "San Nicolás"
+        }
+      },
+      "tags": ["", "san nicolás"],
+      "element_id": "168"
+    },
+    {
+      "element_name": "Tiro Federal y Deportivo Morteros",
+      "metadata": {
+        "hint": "Morteros",
+        "image": "https://cdn.soccerwiki.org/images/logos/clubs/4788.png",
+        "extra": {
+          "division": "",
+          "ciudad": "Morteros"
+        }
+      },
+      "tags": ["", "morteros"],
+      "element_id": "169"
+    }
+  ]
+}

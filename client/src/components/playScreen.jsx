@@ -1,10 +1,20 @@
 import "../styles/playScreen.css";
 import { useNavigate } from "react-router-dom";
-import { useState, useRef, useLayoutEffect } from "react";
+import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { QuizzConfig } from "./quizzConfig";
 
 export function PlayScreen({ quizz }) {
-  const ELEMENT_COUNT = 400; // futuro traido del backend
+  const [quizzData, setQuizzData] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/api/quizzes/clubes-argentinos")
+      .then((res) => res.json())
+      .then((data) => setQuizzData(data))
+      .catch((err) => console.error("❌ Error al cargar quiz:", err));
+  }, []);
+
+  const ELEMENT_COUNT = quizzData?.elements?.length || 0;
+
   const navigate = useNavigate();
   const [mostrarConfig, setMostrarConfig] = useState(false);
   const [{ cols, rows }, setGrid] = useState({ cols: 1, rows: ELEMENT_COUNT });

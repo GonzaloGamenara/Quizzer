@@ -9,7 +9,7 @@ const gameSchema = new mongoose.Schema({
 
   created_by: { type: mongoose.Schema.Types.ObjectId, ref: "Player" },
 
-  setting: {
+  settings: {
     filter: { type: String },
     time_limit: { type: Number },
     allow_hints: { type: Boolean, default: true },
