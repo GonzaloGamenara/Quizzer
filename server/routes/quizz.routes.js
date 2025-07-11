@@ -18,4 +18,14 @@ router.get("/:slug", async (req, res) => {
   }
 });
 
+// GET /api/quizzes
+router.get("/", async (req, res) => {
+  try {
+    const quizzes = await Quiz.find({}, "name slug category"); // Podés agregar más campos si querés
+    res.json(quizzes);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
 export default router;

@@ -1,3 +1,17 @@
+header,
+footer,
+input {
+  font-family: var(--font-primary, sans-serif);
+}
+
+.quizz_id_jugador,
+.quizz_tiempo,
+.quizz_puntuacion_actual,
+.quizz_puntuacion_final {
+  font-family: var(--font-secondary, sans-serif);
+  font-weight: bold;
+}
+
 .quizz_header {
   display: flex;
   gap: 4rem;
@@ -22,13 +36,19 @@
   display: flex;
   flex-direction: column;
 }
- 
+
 .quizz_main {
   flex: 1 1 auto; /* ocupa TODO el espacio que quede */
   display: grid; /* columnas / filas las mete inline style   */
   overflow: hidden; /* nada sobresale, las celdas se encogen     */
   width: 95%;
   margin: 0 auto;
+}
+
+.quizz_input {
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
 }
 
 .quizz_unknown_div {
@@ -49,4 +69,23 @@
 
 .quizz_footer {
   padding: 2rem;
+}
+
+.quizz_acertado {
+  animation: acertadoFlash 0.6s ease-out;
+}
+
+@keyframes acertadoFlash {
+  0% {
+    box-shadow: 0 0 0px rgba(255, 255, 0, 0.6);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 255, 0, 0.9);
+    transform: scale(1.1);
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(255, 255, 0, 0);
+    transform: scale(1);
+  }
 }

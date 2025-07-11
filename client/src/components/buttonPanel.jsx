@@ -1,25 +1,33 @@
 import "../styles/buttonPanel.css";
 import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
-export function ButtonPanel({ b_name }) {
+export function ButtonPanel() {
   const navigate = useNavigate();
-  const quantityButtons = Array(10).fill(null); //Este array debera contener la lista de quizzes para definir los botones a mostrar
+  const [quizzes, setQuizzes] = useState([]);
+
+  useEffect(() => {
+    document.body.style.backgroundImage = "none";
+
+    fetch("http://localhost:5000/api/quizzes") // Ruta para obtener todos los quizzes
+      .then((res) => res.json())
+      .then((data) => setQuizzes(data))
+      .catch((err) => console.error("❌ Error al cargar quizzes:", err));
+  }, []);
 
   return (
     <div className="home_container">
       <h1 className="home_tittle">Quizzer</h1>
       <section className="q-button-panel">
-        {quantityButtons.map((_, index) => {
-          return (
-            <button
-              key={index}
-              className="q-button"
-              onClick={() => navigate("/options")}
-            >
-              <span className="q-button-name">{b_name}</span>
-            </button>
-          );
-        })}
+        {quizzes.map((quiz) => (
+          <button
+            key={quiz._id}
+            className="q-button"
+            onClick={() => navigate(`/options/${quiz.slug}`)}
+          >
+            <span className="q-button-name">{quiz.name}</span>
+          </button>
+        ))}
       </section>
     </div>
   );

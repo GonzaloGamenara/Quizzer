@@ -19,6 +19,7 @@
   padding: 3rem;
   border-radius: 25px;
   gap: 2rem;
+  max-width: 60%;
 }
 
 .quizz_all_option {
@@ -62,8 +63,9 @@
 
 button {
   border: none;
-  background: none;
+  background: black;
   transition: all 0.25s ease-in-out;
+  border-radius: 25px;
 }
 
 button:hover {

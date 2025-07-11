@@ -10,11 +10,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ButtonPanel b_name="Quizz" />} />
-        <Route
-          path="/options"
-          element={<OptionsScreen quizz_name="Quizz Nombre" />}
-        />
-        <Route path="/play" element={<PlayScreen />} />
+        <Route path="/options/:slug" element={<OptionsScreen />} />
+        <Route path="/play/:slug" element={<PlayScreen />} />
       </Routes>
     </BrowserRouter>
   );
