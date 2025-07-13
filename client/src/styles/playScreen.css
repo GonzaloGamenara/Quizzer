@@ -4,6 +4,20 @@ input {
   font-family: var(--font-primary, sans-serif);
 }
 
+.loading-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-family: var(--font-primary), sans-serif;
+}
+
+button {
+  background: none;
+}
+
 .quizz_id_jugador,
 .quizz_tiempo,
 .quizz_puntuacion_actual,
@@ -30,7 +44,7 @@ input {
 
 .quizz_container {
   height: 90vh;
-  background-color: black;
+  background-color: #020912;
   border-radius: 25px;
   width: 80vw;
   display: flex;

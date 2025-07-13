@@ -19,21 +19,21 @@ export function PlayScreen({ quizz }) {
   const [respuestaActual, setRespuestaActual] = useState("");
   const [ultimoAcertado, setUltimoAcertado] = useState(null);
   const [tiempoRestante, setTiempoRestante] = useState(tiempoInicial);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/quizzes/${slug}`)
+    fetch(
+      `https://automatic-potato-vx79qggxr42x6vq-5000.app.github.dev/api/quizzes/${slug}`,
+      {
+        method: "GET",
+        credentials: "include", // si estás usando cookies
+        redirect: "follow",
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         setQuizzData(data);
-
-        // 🖼 Aplicar imagen de fondo si existe
-        if (data.background_image) {
-          document.body.style.backgroundImage = `url(${data.background_image})`;
-          document.body.style.backgroundSize = "cover";
-          document.body.style.backgroundPosition = "center";
-          document.body.style.backgroundRepeat = "no-repeat";
-        }
-
+        setLoading(false);
         // 🧠 Cargar fuentes si existen
         const primaryFont = data.fonts?.primary;
         if (primaryFont?.import?.endsWith(".ttf")) {
@@ -75,7 +75,10 @@ export function PlayScreen({ quizz }) {
             });
         }
       })
-      .catch((err) => console.error("❌ Error al cargar quiz:", err));
+      .catch((err) => {
+        console.error("❌ Error al cargar quiz:", err);
+        setLoading(false);
+      });
   }, []);
 
   useEffect(() => {
@@ -160,6 +163,14 @@ export function PlayScreen({ quizz }) {
     }
   }
 
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <p>Cargando Quiz...</p>
+      </div>
+    );
+  }
+
   return (
     <div className="quizz_container">
       <header className="quizz_header">
@@ -228,9 +239,10 @@ export function PlayScreen({ quizz }) {
                 src={element.metadata.image}
                 alt={element.element_name}
                 style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  objectFit: "contain",
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  display: "block",
                 }}
               />
             ) : (

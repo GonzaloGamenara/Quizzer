@@ -1,3 +1,19 @@
+h1,
+p,
+button {
+  font-family: var(--font-primary, sans-serif);
+}
+
+.loading-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-family: var(--font-primary), sans-serif;
+}
+
 .options-screen {
   display: grid;
   place-items: center; /* centra vertical y horizontal */
@@ -5,10 +21,12 @@
 }
 
 .quizz_name {
-  font-size: 7rem;
   color: #fff;
   text-align: center;
   margin: 0;
+  max-width: 100%;
+  font-size: 7rem;
+  display: inline-block;
 }
 
 .options-section {
@@ -19,7 +37,7 @@
   padding: 3rem;
   border-radius: 25px;
   gap: 2rem;
-  max-width: 60%;
+  width: 60%;
 }
 
 .quizz_all_option {

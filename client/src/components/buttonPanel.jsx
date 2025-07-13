@@ -5,16 +5,39 @@ import { useEffect, useState } from "react";
 export function ButtonPanel() {
   const navigate = useNavigate();
   const [quizzes, setQuizzes] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     document.body.style.backgroundImage = "none";
+    document.body.style.setProperty("--font-primary", "sans-serif");
+    document.body.style.setProperty("--font-secondary", "sans-serif");
 
-    fetch("http://localhost:5000/api/quizzes") // Ruta para obtener todos los quizzes
+    fetch(
+      "https://automatic-potato-vx79qggxr42x6vq-5000.app.github.dev/api/quizzes",
+      {
+        method: "GET",
+        credentials: "include", // si estás usando cookies
+        redirect: "follow",
+      }
+    ) // Ruta para obtener todos los quizzes
       .then((res) => res.json())
-      .then((data) => setQuizzes(data))
-      .catch((err) => console.error("❌ Error al cargar quizzes:", err));
+      .then((data) => {
+        setQuizzes(data);
+        setLoading(false); // ✅ Finaliza carga
+      })
+      .catch((err) => {
+        console.error("❌ Error al cargar quizzes:", err);
+        setLoading(false); // ✅ Finaliza carga
+      });
   }, []);
 
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <p>Cargando Quizzes...</p>
+      </div>
+    );
+  }
   return (
     <div className="home_container">
       <h1 className="home_tittle">Quizzer</h1>
