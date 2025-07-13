@@ -9,11 +9,16 @@ dotenv.config();
 
 async function seedQuiz() {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect(
+      "mongodb+srv://gonzagamenara:yoDVhYxam3FEhXrs@cluster0.lcnbabp.mongodb.net/quizzer?retryWrites=true&w=majority&appName=Cluster0"
+    );
     console.log("✅ Conectado a MongoDB");
 
     // Leer archivo JSON
-    const filePath = path.resolve("scripts", "quiz_data.json");
+    const filePath = path.resolve(
+      "scripts",
+      "quiz_data_campeones-league-of-legends.json"
+    );
     const rawData = fs.readFileSync(filePath, "utf-8");
     const { quiz, elements } = JSON.parse(rawData);
 

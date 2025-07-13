@@ -1,0 +1,2570 @@
+{
+  "quiz": {
+    "name": "Campeones de League of Legends",
+    "slug": "campeones-league-of-legends",
+    "category": "Videojuegos",
+    "background_image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752355072/campeones-league-of-legends_background_001_yw34fy.webp",
+    "fonts": {
+      "primary": {
+        "name": "Primaria",
+        "import": "https://res.cloudinary.com/djibfrqyb/raw/upload/v1752355365/campeones-league-of-legends_font_001_muhqww.ttf"
+      },
+      "secondary": {
+        "name": "Secundaria",
+        "import": "https://res.cloudinary.com/djibfrqyb/raw/upload/v1752355368/campeones-league-of-legends_font_002_qcbqsn.ttf"
+      }
+    }
+  },
+  "elements": [
+    {
+      "element_name": "Aatrox",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357536/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_1.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1414"
+      ],
+      "element_id": 1
+    },
+    {
+      "element_name": "Ahri",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357537/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_2.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "burst",
+        "1418"
+      ],
+      "element_id": 2
+    },
+    {
+      "element_name": "Akali",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357537/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_3.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1418"
+      ],
+      "element_id": 3
+    },
+    {
+      "element_name": "Akshan",
+      "metadata": {
+        "hint": "Marksman,Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357538/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_4.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "marksman,assassin",
+        "1414"
+      ],
+      "element_id": 4
+    },
+    {
+      "element_name": "Alistar",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357538/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_5.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1416"
+      ],
+      "element_id": 5
+    },
+    {
+      "element_name": "Ambessa",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357539/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_6.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "burst",
+        "1418"
+      ],
+      "element_id": 6
+    },
+    {
+      "element_name": "Amumu",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357539/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_7.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1409"
+      ],
+      "element_id": 7
+    },
+    {
+      "element_name": "Anivia",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357540/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_8.webp",
+        "extra": {
+          "lanzamiento": "1322"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1322"
+      ],
+      "element_id": 8
+    },
+    {
+      "element_name": "Annie",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357540/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_9.webp",
+        "extra": {
+          "lanzamiento": "1404"
+        }
+      },
+      "tags": [
+        "burst",
+        "1404"
+      ],
+      "element_id": 9
+    },
+    {
+      "element_name": "Aphelios",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357540/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_10.webp",
+        "extra": {
+          "lanzamiento": "2505"
+        }
+      },
+      "tags": [
+        "marksman",
+        "2505"
+      ],
+      "element_id": 10
+    },
+    {
+      "element_name": "Ashe",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357541/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_11.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1412"
+      ],
+      "element_id": 11
+    },
+    {
+      "element_name": "Aurelion Sol",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357541/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_12.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1421"
+      ],
+      "element_id": 12
+    },
+    {
+      "element_name": "Aurora",
+      "metadata": {
+        "hint": "Mage,Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357542/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_13.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "mage,assassin",
+        "1418"
+      ],
+      "element_id": 13
+    },
+    {
+      "element_name": "Azir",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357542/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_14.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1421"
+      ],
+      "element_id": 14
+    },
+    {
+      "element_name": "Bard",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357543/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_15.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1415"
+      ],
+      "element_id": 15
+    },
+    {
+      "element_name": "Bel'Veth",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357543/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_16.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1418"
+      ],
+      "element_id": 16
+    },
+    {
+      "element_name": "Blitzcrank",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357543/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_17.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1413"
+      ],
+      "element_id": 17
+    },
+    {
+      "element_name": "Brand",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357544/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_18.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "burst",
+        "1421"
+      ],
+      "element_id": 18
+    },
+    {
+      "element_name": "Braum",
+      "metadata": {
+        "hint": "Warden",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357544/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_19.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "warden",
+        "1409"
+      ],
+      "element_id": 19
+    },
+    {
+      "element_name": "Briar",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357545/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_20.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "diver",
+        "1409"
+      ],
+      "element_id": 20
+    },
+    {
+      "element_name": "Caitlyn",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357545/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_21.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1420"
+      ],
+      "element_id": 21
+    },
+    {
+      "element_name": "Camille",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357545/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_22.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "diver",
+        "1421"
+      ],
+      "element_id": 22
+    },
+    {
+      "element_name": "Cassiopeia",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357546/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_23.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1416"
+      ],
+      "element_id": 23
+    },
+    {
+      "element_name": "Cho'Gath",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357546/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_24.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1414"
+      ],
+      "element_id": 24
+    },
+    {
+      "element_name": "Corki",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357547/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_25.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1421"
+      ],
+      "element_id": 25
+    },
+    {
+      "element_name": "Darius",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357547/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_26.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1409"
+      ],
+      "element_id": 26
+    },
+    {
+      "element_name": "Diana",
+      "metadata": {
+        "hint": "Assassin,Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357548/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_27.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "assassin,diver",
+        "1409"
+      ],
+      "element_id": 27
+    },
+    {
+      "element_name": "Dr. Mundo",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357548/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_28.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1420"
+      ],
+      "element_id": 28
+    },
+    {
+      "element_name": "Draven",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357549/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_29.webp",
+        "extra": {
+          "lanzamiento": "1411"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1411"
+      ],
+      "element_id": 29
+    },
+    {
+      "element_name": "Ekko",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357549/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_30.webp",
+        "extra": {
+          "lanzamiento": "1316"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1316"
+      ],
+      "element_id": 30
+    },
+    {
+      "element_name": "Elise",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357549/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_31.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "diver",
+        "1421"
+      ],
+      "element_id": 31
+    },
+    {
+      "element_name": "Evelynn",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357550/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_32.webp",
+        "extra": {
+          "lanzamiento": "1411"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1411"
+      ],
+      "element_id": 32
+    },
+    {
+      "element_name": "Ezreal",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357550/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_33.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1415"
+      ],
+      "element_id": 33
+    },
+    {
+      "element_name": "Fiddlesticks",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357551/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_34.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1421"
+      ],
+      "element_id": 34
+    },
+    {
+      "element_name": "Fiora",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357551/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_35.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1409"
+      ],
+      "element_id": 35
+    },
+    {
+      "element_name": "Fizz",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357551/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_36.webp",
+        "extra": {
+          "lanzamiento": "1402"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1402"
+      ],
+      "element_id": 36
+    },
+    {
+      "element_name": "Galio",
+      "metadata": {
+        "hint": "Warden",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357552/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_37.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "warden",
+        "1421"
+      ],
+      "element_id": 37
+    },
+    {
+      "element_name": "Gangplank",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357552/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_38.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1421"
+      ],
+      "element_id": 38
+    },
+    {
+      "element_name": "Garen",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357553/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_39.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1409"
+      ],
+      "element_id": 39
+    },
+    {
+      "element_name": "Gnar",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357553/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_40.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1418"
+      ],
+      "element_id": 40
+    },
+    {
+      "element_name": "Gragas",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357554/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_41.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1419"
+      ],
+      "element_id": 41
+    },
+    {
+      "element_name": "Graves",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357554/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_42.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1413"
+      ],
+      "element_id": 42
+    },
+    {
+      "element_name": "Gwen",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357555/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_43.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1421"
+      ],
+      "element_id": 43
+    },
+    {
+      "element_name": "Hecarim",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357555/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_44.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "diver",
+        "1414"
+      ],
+      "element_id": 44
+    },
+    {
+      "element_name": "Heimerdinger",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357555/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_45.webp",
+        "extra": {
+          "lanzamiento": "1411"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1411"
+      ],
+      "element_id": 45
+    },
+    {
+      "element_name": "Hwei",
+      "metadata": {
+        "hint": "Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357556/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_46.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "artillery",
+        "1421"
+      ],
+      "element_id": 46
+    },
+    {
+      "element_name": "Illaoi",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357556/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_47.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1409"
+      ],
+      "element_id": 47
+    },
+    {
+      "element_name": "Irelia",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357557/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_48.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "diver",
+        "1421"
+      ],
+      "element_id": 48
+    },
+    {
+      "element_name": "Ivern",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357559/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_49.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1418"
+      ],
+      "element_id": 49
+    },
+    {
+      "element_name": "Janna",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357559/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_50.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1409"
+      ],
+      "element_id": 50
+    },
+    {
+      "element_name": "Jarvan IV",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357559/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_51.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "diver",
+        "1418"
+      ],
+      "element_id": 51
+    },
+    {
+      "element_name": "Jax",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357560/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_52.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1418"
+      ],
+      "element_id": 52
+    },
+    {
+      "element_name": "Jayce",
+      "metadata": {
+        "hint": "Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357560/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_53.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "artillery",
+        "1418"
+      ],
+      "element_id": 53
+    },
+    {
+      "element_name": "Jhin",
+      "metadata": {
+        "hint": "Marksman,Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357561/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_54.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "marksman,catcher",
+        "1420"
+      ],
+      "element_id": 54
+    },
+    {
+      "element_name": "Jinx",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357561/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_55.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1418"
+      ],
+      "element_id": 55
+    },
+    {
+      "element_name": "K'Sante",
+      "metadata": {
+        "hint": "Warden,Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357562/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_56.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "warden,skirmisher",
+        "1419"
+      ],
+      "element_id": 56
+    },
+    {
+      "element_name": "Kai'Sa",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357562/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_57.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1421"
+      ],
+      "element_id": 57
+    },
+    {
+      "element_name": "Kalista",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357562/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_58.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1413"
+      ],
+      "element_id": 58
+    },
+    {
+      "element_name": "Karma",
+      "metadata": {
+        "hint": "Burst,Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357563/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_59.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "burst,enchanter",
+        "1413"
+      ],
+      "element_id": 59
+    },
+    {
+      "element_name": "Karthus",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357563/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_60.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1421"
+      ],
+      "element_id": 60
+    },
+    {
+      "element_name": "Kassadin",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357564/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_61.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1421"
+      ],
+      "element_id": 61
+    },
+    {
+      "element_name": "Katarina",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357564/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_62.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1416"
+      ],
+      "element_id": 62
+    },
+    {
+      "element_name": "Kayle",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357565/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_63.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1421"
+      ],
+      "element_id": 63
+    },
+    {
+      "element_name": "Kayn",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357565/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_64.webp",
+        "extra": {
+          "lanzamiento": "1407"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1407"
+      ],
+      "element_id": 64
+    },
+    {
+      "element_name": "Kennen",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357565/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_65.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1413"
+      ],
+      "element_id": 65
+    },
+    {
+      "element_name": "Kha'Zix",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357566/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_66.webp",
+        "extra": {
+          "lanzamiento": "1411"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1411"
+      ],
+      "element_id": 66
+    },
+    {
+      "element_name": "Kindred",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357566/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_67.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1414"
+      ],
+      "element_id": 67
+    },
+    {
+      "element_name": "Kled",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357567/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_68.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1409"
+      ],
+      "element_id": 68
+    },
+    {
+      "element_name": "Kog'Maw",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357567/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_69.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1414"
+      ],
+      "element_id": 69
+    },
+    {
+      "element_name": "LeBlanc",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357568/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_70.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "burst",
+        "1414"
+      ],
+      "element_id": 70
+    },
+    {
+      "element_name": "Lee Sin",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357568/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_71.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "diver",
+        "1420"
+      ],
+      "element_id": 71
+    },
+    {
+      "element_name": "Leona",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357569/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_72.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1418"
+      ],
+      "element_id": 72
+    },
+    {
+      "element_name": "Lillia",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357569/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_73.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1418"
+      ],
+      "element_id": 73
+    },
+    {
+      "element_name": "Lissandra",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357570/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_74.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "burst",
+        "1418"
+      ],
+      "element_id": 74
+    },
+    {
+      "element_name": "Lucian",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357570/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_75.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1416"
+      ],
+      "element_id": 75
+    },
+    {
+      "element_name": "Lulu",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357571/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_76.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1418"
+      ],
+      "element_id": 76
+    },
+    {
+      "element_name": "Lux",
+      "metadata": {
+        "hint": "Burst,Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357571/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_77.webp",
+        "extra": {
+          "lanzamiento": "1410"
+        }
+      },
+      "tags": [
+        "burst,artillery",
+        "1410"
+      ],
+      "element_id": 77
+    },
+    {
+      "element_name": "Malphite",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357571/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_78.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1421"
+      ],
+      "element_id": 78
+    },
+    {
+      "element_name": "Malzahar",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357572/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_79.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1409"
+      ],
+      "element_id": 79
+    },
+    {
+      "element_name": "Maokai",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357572/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_80.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1418"
+      ],
+      "element_id": 80
+    },
+    {
+      "element_name": "Master Yi",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357573/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_81.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1412"
+      ],
+      "element_id": 81
+    },
+    {
+      "element_name": "Mel",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357573/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_82.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "burst",
+        "1418"
+      ],
+      "element_id": 82
+    },
+    {
+      "element_name": "Milio",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357574/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_83.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1414"
+      ],
+      "element_id": 83
+    },
+    {
+      "element_name": "Miss Fortune",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357574/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_84.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1419"
+      ],
+      "element_id": 84
+    },
+    {
+      "element_name": "Mordekaiser",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357575/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_85.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1420"
+      ],
+      "element_id": 85
+    },
+    {
+      "element_name": "Morgana",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357575/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_86.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1418"
+      ],
+      "element_id": 86
+    },
+    {
+      "element_name": "Naafiri",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357576/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_87.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1412"
+      ],
+      "element_id": 87
+    },
+    {
+      "element_name": "Nami",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357576/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_88.webp",
+        "extra": {
+          "lanzamiento": "1411"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1411"
+      ],
+      "element_id": 88
+    },
+    {
+      "element_name": "Nasus",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357577/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_89.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1421"
+      ],
+      "element_id": 89
+    },
+    {
+      "element_name": "Nautilus",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357577/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_90.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1412"
+      ],
+      "element_id": 90
+    },
+    {
+      "element_name": "Neeko",
+      "metadata": {
+        "hint": "Burst,Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357577/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_91.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "burst,catcher",
+        "1416"
+      ],
+      "element_id": 91
+    },
+    {
+      "element_name": "Nidalee",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357578/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_92.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1414"
+      ],
+      "element_id": 92
+    },
+    {
+      "element_name": "Nilah",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357578/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_93.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1421"
+      ],
+      "element_id": 93
+    },
+    {
+      "element_name": "Nocturne",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357579/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_94.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1409"
+      ],
+      "element_id": 94
+    },
+    {
+      "element_name": "Nunu & Willump",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357579/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_95.webp",
+        "extra": {
+          "lanzamiento": "1319"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1319"
+      ],
+      "element_id": 95
+    },
+    {
+      "element_name": "Olaf",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357580/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_96.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "diver",
+        "1409"
+      ],
+      "element_id": 96
+    },
+    {
+      "element_name": "Orianna",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357580/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_97.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "burst",
+        "1416"
+      ],
+      "element_id": 97
+    },
+    {
+      "element_name": "Ornn",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357581/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_98.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1415"
+      ],
+      "element_id": 98
+    },
+    {
+      "element_name": "Pantheon",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357581/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_99.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "diver",
+        "1420"
+      ],
+      "element_id": 99
+    },
+    {
+      "element_name": "Poppy",
+      "metadata": {
+        "hint": "Warden",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357581/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_100.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "warden",
+        "1420"
+      ],
+      "element_id": 100
+    },
+    {
+      "element_name": "Pyke",
+      "metadata": {
+        "hint": "Assassin,Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357582/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_101.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "assassin,catcher",
+        "1418"
+      ],
+      "element_id": 101
+    },
+    {
+      "element_name": "Qiyana",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357582/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_102.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1421"
+      ],
+      "element_id": 102
+    },
+    {
+      "element_name": "Quinn",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357583/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_103.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1419"
+      ],
+      "element_id": 103
+    },
+    {
+      "element_name": "Rakan",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357584/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_104.webp",
+        "extra": {
+          "lanzamiento": "1410"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1410"
+      ],
+      "element_id": 104
+    },
+    {
+      "element_name": "Rammus",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357584/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_105.webp",
+        "extra": {
+          "lanzamiento": "1402"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1402"
+      ],
+      "element_id": 105
+    },
+    {
+      "element_name": "Rek'Sai",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357585/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_106.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "diver",
+        "1412"
+      ],
+      "element_id": 106
+    },
+    {
+      "element_name": "Rell",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357585/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_107.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1418"
+      ],
+      "element_id": 107
+    },
+    {
+      "element_name": "Renata Glasc",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357585/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_108.webp",
+        "extra": {
+          "lanzamiento": "1407"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1407"
+      ],
+      "element_id": 108
+    },
+    {
+      "element_name": "Renekton",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357586/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_109.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "diver",
+        "1413"
+      ],
+      "element_id": 109
+    },
+    {
+      "element_name": "Rengar",
+      "metadata": {
+        "hint": "Assassin,Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357586/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_110.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "assassin,diver",
+        "1412"
+      ],
+      "element_id": 110
+    },
+    {
+      "element_name": "Riven",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357586/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_111.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1420"
+      ],
+      "element_id": 111
+    },
+    {
+      "element_name": "Rumble",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357587/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_112.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1418"
+      ],
+      "element_id": 112
+    },
+    {
+      "element_name": "Ryze",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357587/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_113.webp",
+        "extra": {
+          "lanzamiento": "1408"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1408"
+      ],
+      "element_id": 113
+    },
+    {
+      "element_name": "Samira",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357588/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_114.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1418"
+      ],
+      "element_id": 114
+    },
+    {
+      "element_name": "Sejuani",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357588/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_115.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1415"
+      ],
+      "element_id": 115
+    },
+    {
+      "element_name": "Senna",
+      "metadata": {
+        "hint": "Marksman,Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357589/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_116.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "marksman,enchanter",
+        "1421"
+      ],
+      "element_id": 116
+    },
+    {
+      "element_name": "Seraphine",
+      "metadata": {
+        "hint": "Burst,Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357590/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_117.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "burst,enchanter",
+        "1415"
+      ],
+      "element_id": 117
+    },
+    {
+      "element_name": "Sett",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357590/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_118.webp",
+        "extra": {
+          "lanzamiento": "1410"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1410"
+      ],
+      "element_id": 118
+    },
+    {
+      "element_name": "Shaco",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357591/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_119.webp",
+        "extra": {
+          "lanzamiento": "1403"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1403"
+      ],
+      "element_id": 119
+    },
+    {
+      "element_name": "Shen",
+      "metadata": {
+        "hint": "Warden",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357591/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_120.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "warden",
+        "1418"
+      ],
+      "element_id": 120
+    },
+    {
+      "element_name": "Shyvana",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357591/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_121.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1420"
+      ],
+      "element_id": 121
+    },
+    {
+      "element_name": "Singed",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357592/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_122.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1420"
+      ],
+      "element_id": 122
+    },
+    {
+      "element_name": "Sion",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357592/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_123.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1419"
+      ],
+      "element_id": 123
+    },
+    {
+      "element_name": "Sivir",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357592/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_124.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1421"
+      ],
+      "element_id": 124
+    },
+    {
+      "element_name": "Skarner",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357593/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_125.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1420"
+      ],
+      "element_id": 125
+    },
+    {
+      "element_name": "Smolder",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357593/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_126.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1418"
+      ],
+      "element_id": 126
+    },
+    {
+      "element_name": "Sona",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357594/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_127.webp",
+        "extra": {
+          "lanzamiento": "1407"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1407"
+      ],
+      "element_id": 127
+    },
+    {
+      "element_name": "Soraka",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357594/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_128.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1419"
+      ],
+      "element_id": 128
+    },
+    {
+      "element_name": "Swain",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357594/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_129.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1418"
+      ],
+      "element_id": 129
+    },
+    {
+      "element_name": "Sylas",
+      "metadata": {
+        "hint": "Burst,Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357595/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_130.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "burst,skirmisher",
+        "1416"
+      ],
+      "element_id": 130
+    },
+    {
+      "element_name": "Syndra",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357595/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_131.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "burst",
+        "1416"
+      ],
+      "element_id": 131
+    },
+    {
+      "element_name": "Tahm Kench",
+      "metadata": {
+        "hint": "Warden",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357596/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_132.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "warden",
+        "1415"
+      ],
+      "element_id": 132
+    },
+    {
+      "element_name": "Taliyah",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357596/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_133.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1416"
+      ],
+      "element_id": 133
+    },
+    {
+      "element_name": "Talon",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357597/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_134.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1421"
+      ],
+      "element_id": 134
+    },
+    {
+      "element_name": "Taric",
+      "metadata": {
+        "hint": "Enchanter,Warden",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357597/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_135.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "enchanter,warden",
+        "1421"
+      ],
+      "element_id": 135
+    },
+    {
+      "element_name": "Teemo",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357598/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_136.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1421"
+      ],
+      "element_id": 136
+    },
+    {
+      "element_name": "Thresh",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357598/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_137.webp",
+        "extra": {
+          "lanzamiento": "1408"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1408"
+      ],
+      "element_id": 137
+    },
+    {
+      "element_name": "Tristana",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357598/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_138.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1420"
+      ],
+      "element_id": 138
+    },
+    {
+      "element_name": "Trundle",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357599/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_139.webp",
+        "extra": {
+          "lanzamiento": "1405"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1405"
+      ],
+      "element_id": 139
+    },
+    {
+      "element_name": "Tryndamere",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357599/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_140.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1420"
+      ],
+      "element_id": 140
+    },
+    {
+      "element_name": "Twisted Fate",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357600/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_141.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "burst",
+        "1412"
+      ],
+      "element_id": 141
+    },
+    {
+      "element_name": "Twitch",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357600/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_142.webp",
+        "extra": {
+          "lanzamiento": "1412"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1412"
+      ],
+      "element_id": 142
+    },
+    {
+      "element_name": "Udyr",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357601/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_143.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1420"
+      ],
+      "element_id": 143
+    },
+    {
+      "element_name": "Urgot",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357601/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_144.webp",
+        "extra": {
+          "lanzamiento": "1410"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1410"
+      ],
+      "element_id": 144
+    },
+    {
+      "element_name": "Varus",
+      "metadata": {
+        "hint": "Marksman,Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357602/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_145.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "marksman,artillery",
+        "1418"
+      ],
+      "element_id": 145
+    },
+    {
+      "element_name": "Vayne",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357602/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_146.webp",
+        "extra": {
+          "lanzamiento": "1406"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1406"
+      ],
+      "element_id": 146
+    },
+    {
+      "element_name": "Veigar",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357603/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_147.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "burst",
+        "1420"
+      ],
+      "element_id": 147
+    },
+    {
+      "element_name": "Vel'Koz",
+      "metadata": {
+        "hint": "Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357603/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_148.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "artillery",
+        "1409"
+      ],
+      "element_id": 148
+    },
+    {
+      "element_name": "Vex",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357603/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_149.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "burst",
+        "1409"
+      ],
+      "element_id": 149
+    },
+    {
+      "element_name": "Vi",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357604/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_150.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "diver",
+        "1418"
+      ],
+      "element_id": 150
+    },
+    {
+      "element_name": "Viego",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357604/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_151.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1421"
+      ],
+      "element_id": 151
+    },
+    {
+      "element_name": "Viktor",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357605/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_152.webp",
+        "extra": {
+          "lanzamiento": "1424"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1424"
+      ],
+      "element_id": 152
+    },
+    {
+      "element_name": "Vladimir",
+      "metadata": {
+        "hint": "Battlemage",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357605/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_153.webp",
+        "extra": {
+          "lanzamiento": "1419"
+        }
+      },
+      "tags": [
+        "battlemage",
+        "1419"
+      ],
+      "element_id": 153
+    },
+    {
+      "element_name": "Volibear",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357606/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_154.webp",
+        "extra": {
+          "lanzamiento": "1410"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1410"
+      ],
+      "element_id": 154
+    },
+    {
+      "element_name": "Warwick",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357606/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_155.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "diver",
+        "1409"
+      ],
+      "element_id": 155
+    },
+    {
+      "element_name": "Wukong",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357607/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_156.webp",
+        "extra": {
+          "lanzamiento": "1416"
+        }
+      },
+      "tags": [
+        "diver",
+        "1416"
+      ],
+      "element_id": 156
+    },
+    {
+      "element_name": "Xayah",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357607/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_157.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1421"
+      ],
+      "element_id": 157
+    },
+    {
+      "element_name": "Xerath",
+      "metadata": {
+        "hint": "Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357608/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_158.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "artillery",
+        "1409"
+      ],
+      "element_id": 158
+    },
+    {
+      "element_name": "Xin Zhao",
+      "metadata": {
+        "hint": "Diver",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357608/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_159.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "diver",
+        "1418"
+      ],
+      "element_id": 159
+    },
+    {
+      "element_name": "Yasuo",
+      "metadata": {
+        "hint": "Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357608/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_160.webp",
+        "extra": {
+          "lanzamiento": "1420"
+        }
+      },
+      "tags": [
+        "skirmisher",
+        "1420"
+      ],
+      "element_id": 160
+    },
+    {
+      "element_name": "Yone",
+      "metadata": {
+        "hint": "Assassin,Skirmisher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357609/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_161.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "assassin,skirmisher",
+        "1421"
+      ],
+      "element_id": 161
+    },
+    {
+      "element_name": "Yorick",
+      "metadata": {
+        "hint": "Juggernaut",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357609/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_162.webp",
+        "extra": {
+          "lanzamiento": "1421"
+        }
+      },
+      "tags": [
+        "juggernaut",
+        "1421"
+      ],
+      "element_id": 162
+    },
+    {
+      "element_name": "Yuumi",
+      "metadata": {
+        "hint": "Enchanter",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357610/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_163.webp",
+        "extra": {
+          "lanzamiento": "1414"
+        }
+      },
+      "tags": [
+        "enchanter",
+        "1414"
+      ],
+      "element_id": 163
+    },
+    {
+      "element_name": "Zac",
+      "metadata": {
+        "hint": "Vanguard",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357610/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_164.webp",
+        "extra": {
+          "lanzamiento": "1413"
+        }
+      },
+      "tags": [
+        "vanguard",
+        "1413"
+      ],
+      "element_id": 164
+    },
+    {
+      "element_name": "Zed",
+      "metadata": {
+        "hint": "Assassin",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357610/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_165.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "assassin",
+        "1415"
+      ],
+      "element_id": 165
+    },
+    {
+      "element_name": "Zeri",
+      "metadata": {
+        "hint": "Marksman",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357611/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_166.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "marksman",
+        "1418"
+      ],
+      "element_id": 166
+    },
+    {
+      "element_name": "Ziggs",
+      "metadata": {
+        "hint": "Artillery",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357611/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_167.webp",
+        "extra": {
+          "lanzamiento": "1418"
+        }
+      },
+      "tags": [
+        "artillery",
+        "1418"
+      ],
+      "element_id": 167
+    },
+    {
+      "element_name": "Zilean",
+      "metadata": {
+        "hint": "Specialist",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357612/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_168.webp",
+        "extra": {
+          "lanzamiento": "1322"
+        }
+      },
+      "tags": [
+        "specialist",
+        "1322"
+      ],
+      "element_id": 168
+    },
+    {
+      "element_name": "Zoe",
+      "metadata": {
+        "hint": "Burst",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357613/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_169.webp",
+        "extra": {
+          "lanzamiento": "1409"
+        }
+      },
+      "tags": [
+        "burst",
+        "1409"
+      ],
+      "element_id": 169
+    },
+    {
+      "element_name": "Zyra",
+      "metadata": {
+        "hint": "Catcher",
+        "image": "https://res.cloudinary.com/djibfrqyb/image/upload/v1752357613/Quizzer/campeones-league-of-legends/elements/campeones-league-of-legends_element_170.webp",
+        "extra": {
+          "lanzamiento": "1415"
+        }
+      },
+      "tags": [
+        "catcher",
+        "1415"
+      ],
+      "element_id": 170
+    }
+  ]
+}
